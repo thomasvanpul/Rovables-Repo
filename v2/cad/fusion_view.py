@@ -1,7 +1,7 @@
 """Open Rovable v2 in Autodesk Fusion (direct design), name and save the document, and save two views.
 
 Geometry comes from rovable_v2_geom.py, the same file build.py makes the STLs from. Run it from Fusion's
-Scripts dialog, or from any runner that calls run(context). Results go to out/fusion.json.
+Scripts dialog, or from any runner that calls run(context). Results go to export/fusion.json.
 """
 import importlib
 import json
@@ -23,7 +23,7 @@ VIEWS = (("fusion_iso.png", "IsoTopRightViewOrientation", False),
 
 
 def run(context):
-    out = os.path.join(CAD_DIR, "out")
+    out = os.path.join(CAD_DIR, "export")
     os.makedirs(out, exist_ok=True)
     report = {"doc": DOC_NAME}
     try:

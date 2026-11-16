@@ -20,7 +20,7 @@ ROOT = HERE.parents[1]
 sys.path.insert(0, str(HERE))
 import rovable_v2_geom as g
 
-OUT = HERE / "out"
+OUT = HERE / "export"
 SEGMENTS = 96
 PLA_DENSITY = 1.24            # g/cm3
 BED = 256.0                   # mm, P1S and X1C

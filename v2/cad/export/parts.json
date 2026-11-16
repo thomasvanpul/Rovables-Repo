@@ -1,0 +1,169 @@
+{
+ "parts": [
+  {
+   "part": "chassis",
+   "stl": "v2/cad/export/stl/chassis.stl",
+   "qty": 1,
+   "per_robot": 1,
+   "spares": 0,
+   "print": "deck on the bed, tunnels bridge",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    77.1,
+    40.0,
+    14.2
+   ],
+   "volume_mm3": 20090.2,
+   "solid_grams": 24.91
+  },
+  {
+   "part": "tray",
+   "stl": "v2/cad/export/stl/tray.stl",
+   "qty": 1,
+   "per_robot": 1,
+   "spares": 0,
+   "print": "floor on the bed",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    77.1,
+    40.0,
+    7.6
+   ],
+   "volume_mm3": 6849.3,
+   "solid_grams": 8.49
+  },
+  {
+   "part": "roller_body",
+   "stl": "v2/cad/export/stl/roller_body.stl",
+   "qty": 4,
+   "per_robot": 2,
+   "spares": 2,
+   "print": "hub end down, open bore up",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    12.0,
+    12.0,
+    38.4
+   ],
+   "volume_mm3": 2482.7,
+   "solid_grams": 3.08
+  },
+  {
+   "part": "roller_cap",
+   "stl": "v2/cad/export/stl/roller_cap.stl",
+   "qty": 4,
+   "per_robot": 2,
+   "spares": 2,
+   "print": "flange down, plug up",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    12.0,
+    12.0,
+    6.8
+   ],
+   "volume_mm3": 647.7,
+   "solid_grams": 0.8
+  },
+  {
+   "part": "motor_cap",
+   "stl": "v2/cad/export/stl/motor_cap.stl",
+   "qty": 2,
+   "per_robot": 2,
+   "spares": 0,
+   "print": "flange down",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    14.2,
+    16.0,
+    4.6
+   ],
+   "volume_mm3": 676.6,
+   "solid_grams": 0.84
+  }
+ ],
+ "checks": [
+  {
+   "check": "all parts watertight",
+   "ok": true
+  },
+  {
+   "check": "all parts one solid",
+   "ok": true
+  },
+  {
+   "check": "all parts fit the bed",
+   "ok": true
+  },
+  {
+   "check": "no clash between any two parts in the assembly (0 found: [])",
+   "ok": true
+  },
+  {
+   "check": "magnet fits the bore with 0.1 to 0.2 radial clearance",
+   "ok": true
+  },
+  {
+   "check": "magnet and cap plug fit the bore length",
+   "ok": true
+  },
+  {
+   "check": "shaft tip stays inside the D hole",
+   "ok": true
+  },
+  {
+   "check": "roller clears the deck",
+   "ok": true
+  },
+  {
+   "check": "roller is the lowest point (chassis clear of the fabric)",
+   "ok": true
+  },
+  {
+   "check": "tray screw pilot keeps a wall to the roller well (1.40 mm)",
+   "ok": true
+  },
+  {
+   "check": "every board pocket is inside the tray rim",
+   "ok": true
+  },
+  {
+   "check": "battery pocket clears the board row",
+   "ok": true
+  }
+ ],
+ "robot_printed_grams_solid": 42.8,
+ "envelope_mm": [
+  80.3,
+  40.0,
+  22.2
+ ],
+ "track_mm": 32.7,
+ "axis_pitch_mm": 24.0,
+ "plate": {
+  "tag": "rovable_v2_P1S_0.4mm",
+  "rc": 0,
+  "slicer_rc": 0,
+  "error": "Success.",
+  "stderr": "",
+  "objects": 12,
+  "slicer_plates": 1,
+  "seconds": 4438,
+  "grams": 39.28,
+  "warnings": [],
+  "printer": "P1S",
+  "process": "0.20mm Standard @BBL X1C",
+  "layer": "0.2",
+  "walls": "3",
+  "infill": "20%",
+  "support": "0",
+  "nozzle": [
+   "0.4"
+  ],
+  "file": "v2/cad/export/plates/rovable_v2_P1S_0.4mm.3mf"
+ }
+}

@@ -5,8 +5,8 @@ used as the wheels, an ESP32-C3 or ESP32-S3 talking to a Mac over Bluetooth Low 
 on an ordinary FDM printer. Nothing here is the original authors' work; their design is in the folders above
 this one, unchanged.
 
-![Rovable v2 in Fusion](cad/out/fusion_iso.png)
-![Underside: the two rollers, and the two loose magnets that sit inside the shirt](cad/out/fusion_under.png)
+![Rovable v2 in Fusion](cad/export/fusion_iso.png)
+![Underside: the two rollers, and the two loose magnets that sit inside the shirt](cad/export/fusion_under.png)
 
 State on 16 Nov 2026: modelled, sliced, firmware compiles. **Not printed, not wired, not driven.**
 
@@ -45,9 +45,9 @@ one-roller test rig built the same day. `evidence/README.md` says what that test
 | `cad/rovable_v2_geom.py` | Every dimension, as named parameters at the top, and the shape of each part |
 | `cad/build.py` | Makes the STLs in print orientation, checks them, and slices the plate |
 | `cad/fusion_view.py` | Opens the same geometry in Autodesk Fusion and saves the two views above |
-| `cad/out/stl/` | The five printed parts |
-| `cad/out/plates/rovable_v2_P1S_0.4mm.3mf` | One plate: a full robot plus a spare pair of rollers and caps |
-| `cad/out/rovable_v2.f3d` | The Fusion model |
+| `cad/export/stl/` | The five printed parts |
+| `cad/export/plates/rovable_v2_P1S_0.4mm.3mf` | One plate: a full robot plus a spare pair of rollers and caps |
+| `cad/export/rovable_v2.f3d` | The Fusion model |
 | `firmware/rovable_v2/` | Arduino sketch: motor drive, IMU, BLE |
 | `host/rovable_ble.py` | Drives the robot from the Mac |
 | `evidence/` | The test rig this design starts from |

@@ -32,7 +32,7 @@ v2 is about twice the size, runs on two N20 gear motors with 8.92 x 25 mm rod ma
 the radio, processor and USB base station for one ESP32 that a Mac talks to over Bluetooth. Its body is written
 as code and prints in PLA without supports.
 
-![Rovable v2 in Fusion](v2/cad/out/fusion_iso.png)
+![Rovable v2 in Fusion](v2/cad/export/fusion_iso.png)
 
 State on 16 Nov 2026: modelled, sliced (one plate, 1 h 14 min), firmware compiles for ESP32-C3 and ESP32-S3.
 Not printed, not wired, not driven. [`v2/README.md`](v2/README.md) has the design, the print and build steps,
