@@ -9,7 +9,8 @@ component values read off the boards (see `electronics/kicad`); a row marked `as
 does not specify, such as "N-channel MOSFET, SOT-323", and needs checking against the schematic PDF.
 
 Stock and prices were read from JLCPCB's assembly parts library on 16 November 2026 (the time is in
-`availability.json`). Mouser was not checked: its site refuses automated requests.
+`availability.json`). Mouser was not checked: its site refuses automated requests (tried again from a browser on 16 November,
+connection aborted).
 
 ## What it found, motor driver (41 lines)
 
@@ -27,8 +28,8 @@ and the DF12 mating connector are not in the library.
 
 ## What two sets cost at JLCPCB
 
-This is an estimate built from JLCPCB's published fee tables and the prices above. It is not a quote: the Gerbers
-were not uploaded to their quote tool.
+The assembly figures here are an estimate built from JLCPCB's published fee tables and the prices above. The
+bare boards have a real figure from their quote tool, in the next section.
 
 For the two motor driver boards, assembled on both sides (the board has 44 parts on top and 25 underneath, which
 puts it on their Standard service):
@@ -45,6 +46,34 @@ puts it on their Standard service):
 Not in that total: fabricating the boards themselves (minimum order 5 of each), the two IR encoder boards per
 robot (7 parts each, easier to solder by hand than to pay a second USD 50 setup), the encoder discs, flex cables,
 base station and programming shield, motors, magnets and battery.
+
+## What JLCPCB's quote tool says for the bare boards
+
+Read from https://cart.jlcpcb.com/quote on 16 November 2026, not signed in, 5 boards of each (their minimum),
+standard build time, default colour and finish. The motor driver Gerbers exported from the KiCad board were
+uploaded; the tool read them as "4 layer board of 22.18 x 23.17 mm" (`jlcpcb_quote_motor_driver.png`). The
+other boards were priced by entering their size.
+
+| Board | As quoted | USD for 5 |
+|---|---|---|
+| `motor_driver_v3` | 4 layers, 0.8 mm thick, 0.3 mm smallest via hole (their default) | 8.10 |
+| `motor_driver_v3` | 4 layers, 0.8 mm thick, 0.2 mm via hole, which is what the board is drawn with | 44.61 |
+| `ir_encoder_v2` | 2 layers, 1.6 mm thick | 4.20 |
+| `ir_encoder_v2` | 2 layers, 0.4 mm thick as drawn | 33.30 |
+| `encoder_wheel` | 2 layers, 1.6 mm thick | 4.20 |
+| `master_board` | 2 layers, 1.6 mm thick | 4.00 |
+| `programming_shield` | 2 layers, 1.6 mm thick | 4.10 |
+
+The 0.2 mm via price is 8.00 base, 3.32 material, 16.61 for the small vias, 16.58 for the electrical test they
+then require and 0.10 edge finishing. For 4 layers the tool greys out 0.4 mm and 0.6 mm, so 0.8 mm is the
+thinnest it will make; the authors' board is 0.57 mm. Shipping showed as USD 26.08 by UPS for one board type,
+to the tool's default destination, which was not set to the UK. The flex cable is a different product (flexible
+PCB) and was not quoted. The assembly price above is still the fee-table estimate: their assembly quote needs
+a signed-in account.
+
+Putting the two together for 2 working motor driver boards: about 216 to 279 for parts and assembly plus 44.61
+for boards as drawn, so roughly USD 260 to 325 before shipping and import tax, and only if the four parts at
+zero stock are found elsewhere.
 
 Two things stop this being ordered as drawn. The motor driver is a 4-layer board 0.57 mm thick, and the 4-layer
 thicknesses JLCPCB lists start at 0.8 mm (the authors' note says they used PCBCart for 0.5 mm). And the radio,
