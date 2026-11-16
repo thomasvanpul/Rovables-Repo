@@ -1,0 +1,278 @@
+{
+ "robot_sets": 2,
+ "parts": [
+  {
+   "part": "base_plate_v1",
+   "what": "Main body (chassis): carries both motors, bearings, encoder boards and standoffs",
+   "qty": 2,
+   "pla": true,
+   "stl": "printables/stl/base_plate_v1.stl",
+   "watertight": true,
+   "winding": true,
+   "faces_filled": 0,
+   "size_mm": [
+    23.95,
+    25.16,
+    11.0
+   ],
+   "volume_mm3": 825.0,
+   "solid_grams": 1.02,
+   "pose": "override",
+   "overhang_mm2": 404.0,
+   "bed_mm2": 7.7
+  },
+  {
+   "part": "bottom_ski_v1",
+   "what": "Undercarriage: clamps the two motors into the main body from below",
+   "qty": 2,
+   "pla": true,
+   "stl": "printables/stl/bottom_ski_v1.stl",
+   "watertight": true,
+   "winding": true,
+   "faces_filled": 0,
+   "size_mm": [
+    9.99,
+    18.36,
+    2.7
+   ],
+   "volume_mm3": 175.2,
+   "solid_grams": 0.22,
+   "pose": "-y",
+   "poses_tried": 10,
+   "overhang_mm2": 20.4,
+   "bed_mm2": 115.3
+  },
+  {
+   "part": "case_minimum_covered",
+   "what": "Cover over the electronics and battery",
+   "qty": 2,
+   "pla": true,
+   "stl": "printables/stl/case_minimum_covered.stl",
+   "watertight": true,
+   "winding": true,
+   "faces_filled": 2,
+   "size_mm": [
+    23.95,
+    26.46,
+    11.2
+   ],
+   "volume_mm3": 984.8,
+   "solid_grams": 1.22,
+   "pose": "rest0",
+   "poses_tried": 8,
+   "overhang_mm2": 267.7,
+   "bed_mm2": 185.0
+  },
+  {
+   "part": "BB_Mg_Adapter_V2",
+   "what": "Ball bearing adapter: idler-side wheel hub, holds the ring magnets",
+   "qty": 4,
+   "pla": true,
+   "stl": "printables/stl/BB_Mg_Adapter_V2.stl",
+   "watertight": true,
+   "winding": true,
+   "faces_filled": 0,
+   "size_mm": [
+    9.5,
+    9.5,
+    6.0
+   ],
+   "volume_mm3": 114.0,
+   "solid_grams": 0.14,
+   "pose": "override",
+   "overhang_mm2": 64.6,
+   "bed_mm2": 4.4
+  },
+  {
+   "part": "Mt_Mg_Adapter_V2",
+   "what": "Motor adapter: driven-side wheel hub on the motor shaft, holds the ring magnets",
+   "qty": 4,
+   "pla": true,
+   "stl": "printables/stl/Mt_Mg_Adapter_V2.stl",
+   "watertight": true,
+   "winding": true,
+   "faces_filled": 0,
+   "size_mm": [
+    9.5,
+    9.5,
+    3.9
+   ],
+   "volume_mm3": 94.9,
+   "solid_grams": 0.12,
+   "pose": "override",
+   "overhang_mm2": 62.2,
+   "bed_mm2": 5.2
+  },
+  {
+   "part": "Magnet_Holder_V1C",
+   "what": "Rod for magnets: goes behind the fabric with a ring magnet on each end",
+   "qty": 2,
+   "pla": true,
+   "stl": "printables/stl/Magnet_Holder_V1C.stl",
+   "watertight": true,
+   "winding": true,
+   "faces_filled": 0,
+   "size_mm": [
+    4.0,
+    4.0,
+    31.0
+   ],
+   "volume_mm3": 239.9,
+   "solid_grams": 0.3,
+   "pose": "+z",
+   "poses_tried": 53,
+   "overhang_mm2": 11.9,
+   "bed_mm2": 3.8
+  },
+  {
+   "part": "Chassis_encoder_inside_v2",
+   "what": "Earlier chassis with the encoders inside (assemblies v1 to v3); one copy for comparison",
+   "qty": 1,
+   "pla": true,
+   "stl": "printables/stl/Chassis_encoder_inside_v2.stl",
+   "watertight": true,
+   "winding": true,
+   "faces_filled": 0,
+   "size_mm": [
+    25.75,
+    24.8,
+    15.45
+   ],
+   "volume_mm3": 1108.9,
+   "solid_grams": 1.38,
+   "pose": "override",
+   "overhang_mm2": 565.0,
+   "bed_mm2": 5.1
+  },
+  {
+   "part": "top_part_joystick_v1",
+   "what": "Joystick controller enclosure, top",
+   "qty": 1,
+   "pla": true,
+   "stl": "printables/stl/top_part_joystick_v1.stl",
+   "watertight": true,
+   "winding": true,
+   "faces_filled": 0,
+   "size_mm": [
+    123.06,
+    62.8,
+    21.5
+   ],
+   "volume_mm3": 22745.1,
+   "solid_grams": 28.2,
+   "pose": "-y",
+   "poses_tried": 13,
+   "overhang_mm2": 402.1,
+   "bed_mm2": 4721.0
+  },
+  {
+   "part": "bottom_part_joystick_v1",
+   "what": "Joystick controller enclosure, bottom",
+   "qty": 1,
+   "pla": true,
+   "stl": "printables/stl/bottom_part_joystick_v1.stl",
+   "watertight": true,
+   "winding": true,
+   "faces_filled": 0,
+   "size_mm": [
+    123.04,
+    62.78,
+    13.0
+   ],
+   "volume_mm3": 21601.0,
+   "solid_grams": 26.79,
+   "pose": "+y",
+   "poses_tried": 12,
+   "overhang_mm2": 426.1,
+   "bed_mm2": 5478.9
+  },
+  {
+   "part": "rubber_wheels_v1",
+   "what": "Tyre. The paper used 1 mm neoprene; print in TPU or cut from sheet, not PLA",
+   "qty": 0,
+   "pla": false,
+   "stl": "printables/stl/rubber_wheels_v1.stl",
+   "watertight": true,
+   "winding": true,
+   "faces_filled": 0,
+   "size_mm": [
+    10.9,
+    10.9,
+    3.5
+   ],
+   "volume_mm3": 136.2,
+   "solid_grams": 0.17,
+   "pose": "+z",
+   "poses_tried": 112,
+   "overhang_mm2": 0.0,
+   "bed_mm2": 53.7
+  },
+  {
+   "part": "radio_dungle",
+   "what": "Model of the bought USB radio dongle, for fit only; not a printed part",
+   "qty": 0,
+   "pla": false,
+   "stl": "printables/stl/radio_dungle.stl",
+   "watertight": true,
+   "winding": true,
+   "faces_filled": 0,
+   "size_mm": [
+    15.0,
+    7.3,
+    29.0
+   ],
+   "volume_mm3": 704.1,
+   "solid_grams": 0.87,
+   "pose": "+x",
+   "poses_tried": 12,
+   "overhang_mm2": 10.6,
+   "bed_mm2": 41.0
+  }
+ ],
+ "plates": [
+  {
+   "tag": "rovables_all_P1S_0.4mm",
+   "rc": 0,
+   "slicer_rc": 0,
+   "error": "Success.",
+   "stderr": "",
+   "objects": 19,
+   "slicer_plates": 1,
+   "seconds": 14547,
+   "grams": 59.89,
+   "warnings": [],
+   "printer": "P1S",
+   "process": "0.12mm Fine @BBL X1C",
+   "layer": "0.12",
+   "walls": "3",
+   "infill": "20%",
+   "support": "1",
+   "nozzle": [
+    "0.4"
+   ],
+   "file": "printables/plates/rovables_all_P1S_0.4mm.3mf"
+  },
+  {
+   "tag": "rovables_robot_P1S_0.2mm",
+   "rc": 0,
+   "slicer_rc": 0,
+   "error": "Success.",
+   "stderr": "",
+   "objects": 16,
+   "slicer_plates": 1,
+   "seconds": 8347,
+   "grams": 8.09,
+   "warnings": [],
+   "printer": "P1S",
+   "process": "0.10mm Standard @BBL X1C 0.2 nozzle",
+   "layer": "0.1",
+   "walls": "3",
+   "infill": "20%",
+   "support": "1",
+   "nozzle": [
+    "0.2"
+   ],
+   "file": "printables/plates/rovables_robot_P1S_0.2mm.3mf"
+  }
+ ]
+}
