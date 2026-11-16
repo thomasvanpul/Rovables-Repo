@@ -52,7 +52,9 @@ base station and programming shield, motors, magnets and battery.
 Read from https://cart.jlcpcb.com/quote on 16 November 2026, not signed in, 5 boards of each (their minimum),
 standard build time, default colour and finish. The motor driver Gerbers exported from the KiCad board were
 uploaded; the tool read them as "4 layer board of 22.18 x 23.17 mm" (`jlcpcb_quote_motor_driver.png`). The
-other boards were priced by entering their size.
+screenshot was taken at the tool's defaults (1.6 mm thick, 0.3 mm vias), which also showed 8.10; the other
+selections in the table were read off the page and are not in the screenshot. The other boards were priced by
+entering their size.
 
 | Board | As quoted | USD for 5 |
 |---|---|---|
