@@ -17,8 +17,10 @@ Everything the original authors made is where they left it. Additions are in new
 | `electronics/kicad/` | Their six Altium boards imported into KiCad 10 | boards import and open; four schematics converted, 139 of 141 nets identical to the boards |
 | `electronics/bom/` | One parts list with stock and price per line, and what two sets cost | checked 16 Nov 2026 |
 
-A redesign (a current 32-bit radio microcontroller in place of the separate radio and base station) is planned
-and not started here.
+A redesign, Rovable v2 (N20 motors, rod magnets as the wheels, one ESP32 over Bluetooth in place of the separate
+radio and base station), is on the [`v2` branch](https://github.com/thomasvanpul/Rovables-Repo/tree/v2). It is
+kept off this branch so that everything here stays the original design and conversions of it. On 16 Nov 2026 it
+is modelled and sliced and its firmware compiles; it has not been printed or driven.
 
 Fork maintained by Thomas van Pul. Additions are under the same MIT licence.
 
