@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "date": "2026-11-16T18:51:28",
+    "generator": "KiCad 10.0.3",
+    "project": "master_board",
+    "board_name": "master_board"
+  },
+  "board": {
+    "has_outline": true,
+    "width": "45.3390 mm",
+    "height": "39.3700 mm",
+    "area": "1784.996 mm²",
+    "front_component_density": "12.28",
+    "back_component_density": "12.28",
+    "front_copper_area": "392.933 mm²",
+    "back_copper_area": "1473.043 mm²",
+    "min_track_clearance": "0.2540 mm",
+    "min_track_width": "0.4064 mm",
+    "min_drill_diameter": "0.7112 mm",
+    "board_thickness": "1.4911 mm",
+    "front_footprint_area": "219.119 mm²",
+    "back_footprint_area": "219.119 mm²",
+    "front_footprint_density": "12.28",
+    "back_footprint_density": "12.28"
+  },
+  "pads": {
+    "through_hole": 81,
+    "smd": 34,
+    "connector": 0,
+    "npth": 0,
+    "castellated": 0,
+    "press_fit": 0
+  },
+  "vias": {
+    "through": 8,
+    "blind": 0,
+    "buried": 0,
+    "micro": 0
+  },
+  "components": {
+    "tht": {
+      "front": 0,
+      "back": 0,
+      "total": 0
+    },
+    "smd": {
+      "front": 0,
+      "back": 0,
+      "total": 0
+    },
+    "unspecified": {
+      "front": 17,
+      "back": 0,
+      "total": 17
+    },
+    "total": {
+      "front": 17,
+      "back": 0,
+      "total": 17
+    }
+  },
+  "drill_holes": [
+    {
+      "count": 78,
+      "shape": "Round",
+      "x_size": "0.9000 mm",
+      "y_size": "0.9000 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "Top Layer",
+      "stop_layer": "Bottom Layer"
+    },
+    {
+      "count": 8,
+      "shape": "Round",
+      "x_size": "0.7112 mm",
+      "y_size": "0.7112 mm",
+      "plated": true,
+      "source": "Via",
+      "start_layer": "Top Layer",
+      "stop_layer": "Bottom Layer"
+    },
+    {
+      "count": 3,
+      "shape": "Round",
+      "x_size": "2.9464 mm",
+      "y_size": "2.9464 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "Top Layer",
+      "stop_layer": "Bottom Layer"
+    }
+  ]
+}

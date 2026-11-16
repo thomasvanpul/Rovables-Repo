@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "date": "2026-11-16T18:51:46",
+    "generator": "KiCad 10.0.3",
+    "project": "programming_shield",
+    "board_name": "programming_shield"
+  },
+  "board": {
+    "has_outline": true,
+    "width": "18.1610 mm",
+    "height": "36.0680 mm",
+    "area": "551.821 mm²",
+    "front_component_density": "13.27",
+    "back_component_density": "13.27",
+    "front_copper_area": "159.393 mm²",
+    "back_copper_area": "127.507 mm²",
+    "min_track_clearance": "0.1524 mm",
+    "min_track_width": "0.1524 mm",
+    "min_drill_diameter": "0.2032 mm",
+    "board_thickness": "0.4112 mm",
+    "front_footprint_area": "73.253 mm²",
+    "back_footprint_area": "73.253 mm²",
+    "front_footprint_density": "13.27",
+    "back_footprint_density": "13.27"
+  },
+  "pads": {
+    "through_hole": 32,
+    "smd": 37,
+    "connector": 0,
+    "npth": 0,
+    "castellated": 0,
+    "press_fit": 0
+  },
+  "vias": {
+    "through": 38,
+    "blind": 0,
+    "buried": 0,
+    "micro": 0
+  },
+  "components": {
+    "tht": {
+      "front": 0,
+      "back": 0,
+      "total": 0
+    },
+    "smd": {
+      "front": 0,
+      "back": 0,
+      "total": 0
+    },
+    "unspecified": {
+      "front": 5,
+      "back": 1,
+      "total": 6
+    },
+    "total": {
+      "front": 5,
+      "back": 1,
+      "total": 6
+    }
+  },
+  "drill_holes": [
+    {
+      "count": 38,
+      "shape": "Round",
+      "x_size": "0.2032 mm",
+      "y_size": "0.2032 mm",
+      "plated": true,
+      "source": "Via",
+      "start_layer": "Top Layer",
+      "stop_layer": "Bottom Layer"
+    },
+    {
+      "count": 20,
+      "shape": "Round",
+      "x_size": "0.9000 mm",
+      "y_size": "0.9000 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "Top Layer",
+      "stop_layer": "Bottom Layer"
+    },
+    {
+      "count": 10,
+      "shape": "Round",
+      "x_size": "0.6000 mm",
+      "y_size": "0.6000 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "Top Layer",
+      "stop_layer": "Bottom Layer"
+    },
+    {
+      "count": 2,
+      "shape": "Round",
+      "x_size": "0.5999 mm",
+      "y_size": "0.5999 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "Top Layer",
+      "stop_layer": "Bottom Layer"
+    }
+  ]
+}
