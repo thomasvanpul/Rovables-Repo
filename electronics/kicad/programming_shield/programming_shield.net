@@ -1,0 +1,1440 @@
+(export
+	(version "E")
+	(design
+		(source "/Users/TvpPro/dev/rovables/electronics/kicad/programming_shield/programming_shield.kicad_sch")
+		(date "2026-11-16T21:11:45")
+		(tool "Eeschema 10.0.3")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "programming_shield")
+				(company)
+				(rev)
+				(date)
+				(source "programming_shield.kicad_sch")
+				(comment
+					(number "1")
+					(value "Converted from the authors' Altium schematic by altium_sch_import.py")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "P1")
+			(value "10_pos_connector_2_54mm")
+			(footprint "2_54mm_10_pos_connector")
+			(fields
+				(field
+					(name "Altium library reference") "10_pos_connector_2_54mm")
+				(field
+					(name "Footprint") "2_54mm_10_pos_connector")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "P1")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "10_pos_connector_2_54mm")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/programming_shield/programming_shield.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "523fa43b-51ac-4634-a9f3-2ef53b97e24e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P2")
+			(value "10_pos_connector_2_54mm")
+			(footprint "2_54mm_10_pos_connector")
+			(fields
+				(field
+					(name "Altium library reference") "10_pos_connector_2_54mm")
+				(field
+					(name "Footprint") "2_54mm_10_pos_connector")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "P2")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "10_pos_connector_2_54mm")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/programming_shield/programming_shield.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "88974fb6-6ef3-4cfe-aea6-47cdd8ff821f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P3")
+			(value "microB USB Receptacle")
+			(footprint "MicroB USB Standarad SMT")
+			(fields
+				(field
+					(name "Altium library reference") "microB USB Receptacle")
+				(field
+					(name "Footprint") "MicroB USB Standarad SMT")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "P3")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "microB USB Receptacle")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/programming_shield/programming_shield.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d4913a88-a44b-427c-97e2-186ba6641d90")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P4")
+			(value "CONN HEADER 20POS")
+			(footprint "DF12 20 POS")
+			(fields
+				(field
+					(name "Altium library reference") "CONN HEADER 20POS")
+				(field
+					(name "Footprint") "DF12 20 POS")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "P4")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "CONN HEADER 20POS")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/programming_shield/programming_shield.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "74b64c7f-7d17-420a-97fc-3b26d51b8f26")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "20")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P5")
+			(value "MHDR2X5")
+			(footprint "MHDR2X5")
+			(description "Header, 5-Pin, Dual row")
+			(fields
+				(field
+					(name "Altium library reference") "MHDR2X5")
+				(field
+					(name "Footprint") "MHDR2X5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Header, 5-Pin, Dual row")
+			)
+			(libsource
+				(lib "ALT")
+				(part "P5")
+				(description "Header, 5-Pin, Dual row")
+			)
+			(property
+				(name "Altium library reference")
+				(value "MHDR2X5")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/programming_shield/programming_shield.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8508922c-6e1d-4229-805c-b8f03b52e16c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "10")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P6")
+			(value "6 pin smd 1.27mm female")
+			(footprint "6pos 1.27mm")
+			(fields
+				(field
+					(name "Altium library reference") "6 pin smd 1.27mm female")
+				(field
+					(name "Footprint") "6pos 1.27mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "P6")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "6 pin smd 1.27mm female")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/programming_shield/programming_shield.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9f3b43c1-998b-4675-a22a-8990c186348e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "ALT")
+			(part "P1")
+			(fields
+				(field
+					(name "Reference") "P")
+				(field
+					(name "Value") "10_pos_connector_2_54mm")
+				(field
+					(name "Footprint") "2_54mm_10_pos_connector")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "8")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "9")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "10")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "P2")
+			(fields
+				(field
+					(name "Reference") "P")
+				(field
+					(name "Value") "10_pos_connector_2_54mm")
+				(field
+					(name "Footprint") "2_54mm_10_pos_connector")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "8")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "9")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "10")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "P3")
+			(fields
+				(field
+					(name "Reference") "P")
+				(field
+					(name "Value") "microB USB Receptacle")
+				(field
+					(name "Footprint") "MicroB USB Standarad SMT")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VCC")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "D-")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "D+")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "ID")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "GND")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "P4")
+			(fields
+				(field
+					(name "Reference") "P")
+				(field
+					(name "Value") "CONN HEADER 20POS")
+				(field
+					(name "Footprint") "DF12 20 POS")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "8")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "9")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "10")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "11")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "12")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "13")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "14")
+					(type "passive")
+				)
+				(pin
+					(num "15")
+					(name "15")
+					(type "passive")
+				)
+				(pin
+					(num "16")
+					(name "16")
+					(type "passive")
+				)
+				(pin
+					(num "17")
+					(name "17")
+					(type "passive")
+				)
+				(pin
+					(num "18")
+					(name "18")
+					(type "passive")
+				)
+				(pin
+					(num "19")
+					(name "19")
+					(type "passive")
+				)
+				(pin
+					(num "20")
+					(name "20")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "P5")
+			(description "Header, 5-Pin, Dual row")
+			(fields
+				(field
+					(name "Reference") "P")
+				(field
+					(name "Value") "MHDR2X5")
+				(field
+					(name "Footprint") "MHDR2X5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Header, 5-Pin, Dual row")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "8")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "9")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "10")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "P6")
+			(fields
+				(field
+					(name "Reference") "P")
+				(field
+					(name "Value") "6 pin smd 1.27mm female")
+				(field
+					(name "Footprint") "6pos 1.27mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "6")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries)
+	(nets
+		(net
+			(code "1")
+			(name "/ENC_OUT1")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "P4")
+				(pin "17")
+				(pinfunction "17_17")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "/ENC_OUT2")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "P4")
+				(pin "15")
+				(pinfunction "15_15")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "/INT_ENC1")
+			(class "Default")
+			(node
+				(ref "P2")
+				(pin "9")
+				(pinfunction "9_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "P4")
+				(pin "18")
+				(pinfunction "18_18")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "/INT_ENC2")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "P4")
+				(pin "13")
+				(pinfunction "13_13")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "/MISO")
+			(class "Default")
+			(node
+				(ref "P2")
+				(pin "7")
+				(pinfunction "7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "P4")
+				(pin "14")
+				(pinfunction "14_14")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "/MOSI")
+			(class "Default")
+			(node
+				(ref "P2")
+				(pin "8")
+				(pinfunction "8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "P4")
+				(pin "16")
+				(pinfunction "16_16")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "/RESET")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "10")
+				(pinfunction "10_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "P4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P5")
+				(pin "10")
+				(pinfunction "10_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "P6")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "/RX")
+			(class "Default")
+			(node
+				(ref "P2")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "P4")
+				(pin "8")
+				(pinfunction "8_8")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "/SCK")
+			(class "Default")
+			(node
+				(ref "P2")
+				(pin "6")
+				(pinfunction "6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "P4")
+				(pin "12")
+				(pinfunction "12_12")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "/SCL")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "6")
+				(pinfunction "6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "P4")
+				(pin "9")
+				(pinfunction "9_9")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "/SDA")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "7")
+				(pinfunction "7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "P4")
+				(pin "7")
+				(pinfunction "7_7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "12")
+			(name "/SWCLK")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "9")
+				(pinfunction "9_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "P4")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "P5")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "P6")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "13")
+			(name "/SWDIO")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "8")
+				(pinfunction "8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "P4")
+				(pin "5")
+				(pinfunction "5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "P5")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "P6")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "14")
+			(name "/TX")
+			(class "Default")
+			(node
+				(ref "P2")
+				(pin "5")
+				(pinfunction "5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "P4")
+				(pin "10")
+				(pinfunction "10_10")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "15")
+			(name "/USBM")
+			(class "Default")
+			(node
+				(ref "P2")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "P3")
+				(pin "2")
+				(pinfunction "D-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "P4")
+				(pin "6")
+				(pinfunction "6_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "16")
+			(name "/USBP")
+			(class "Default")
+			(node
+				(ref "P2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "P3")
+				(pin "3")
+				(pinfunction "D+_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "P4")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "17")
+			(name "/VBAT")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P4")
+				(pin "19")
+				(pinfunction "19_19")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "18")
+			(name "5V")
+			(class "Default")
+			(node
+				(ref "P2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P3")
+				(pin "1")
+				(pinfunction "VCC_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P4")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "P2")
+				(pin "10")
+				(pinfunction "10_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "P3")
+				(pin "5")
+				(pinfunction "GND_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "P4")
+				(pin "20")
+				(pinfunction "20_20")
+				(pintype "passive")
+			)
+			(node
+				(ref "P5")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "P5")
+				(pin "5")
+				(pinfunction "5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "P6")
+				(pin "5")
+				(pinfunction "5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "P6")
+				(pin "6")
+				(pinfunction "6_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "20")
+			(name "VCC")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "5")
+				(pinfunction "5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "P4")
+				(pin "11")
+				(pinfunction "11_11")
+				(pintype "passive")
+			)
+			(node
+				(ref "P5")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P6")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "21")
+			(name "unconnected-(P3-ID-Pad4)")
+			(class "Default")
+			(node
+				(ref "P3")
+				(pin "4")
+				(pinfunction "ID_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
+			(name "unconnected-(P5-Pad6)")
+			(class "Default")
+			(node
+				(ref "P5")
+				(pin "6")
+				(pinfunction "6_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
+			(name "unconnected-(P5-Pad7)")
+			(class "Default")
+			(node
+				(ref "P5")
+				(pin "7")
+				(pinfunction "7_7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "unconnected-(P5-Pad8)")
+			(class "Default")
+			(node
+				(ref "P5")
+				(pin "8")
+				(pinfunction "8_8")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "25")
+			(name "unconnected-(P5-Pad9)")
+			(class "Default")
+			(node
+				(ref "P5")
+				(pin "9")
+				(pinfunction "9_9")
+				(pintype "passive")
+			)
+		)
+	)
+)

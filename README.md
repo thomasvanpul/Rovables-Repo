@@ -14,7 +14,7 @@ Everything the original authors made is where they left it. Additions are in new
 |---|---|---|
 | `mechanical/converted/` | Their SolidWorks parts as STEP and STL, so they open without SolidWorks | 11 of 11 custom parts converted |
 | `printables/` | The parts oriented and plated for an FDM printer (Bambu P1S, PLA), with the script that builds them | sliced, not yet printed |
-| `electronics/kicad/` | Their six Altium boards imported into KiCad 10 | boards import and open; schematics not imported |
+| `electronics/kicad/` | Their six Altium boards imported into KiCad 10 | boards import and open; four schematics converted, 139 of 141 nets identical to the boards |
 | `electronics/bom/` | One parts list with stock and price per line, and what two sets cost | checked 16 Nov 2026 |
 
 A redesign (a current 32-bit radio microcontroller in place of the separate radio and base station) is planned

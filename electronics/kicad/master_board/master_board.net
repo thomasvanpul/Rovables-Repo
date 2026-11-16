@@ -1,0 +1,2559 @@
+(export
+	(version "E")
+	(design
+		(source "/Users/TvpPro/dev/rovables/electronics/kicad/master_board/master_board.kicad_sch")
+		(date "2026-11-16T21:11:47")
+		(tool "Eeschema 10.0.3")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "master_board")
+				(company)
+				(rev)
+				(date)
+				(source "master_board.kicad_sch")
+				(comment
+					(number "1")
+					(value "Converted from the authors' Altium schematic by altium_sch_import.py")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "100uF 25V")
+			(value "Electrolytic Cap 100uF smd")
+			(footprint "F80 Electrolytic cap")
+			(description "100uF 25 VSMD")
+			(fields
+				(field
+					(name "Altium library reference") "Electrolytic Cap 100uF smd")
+				(field
+					(name "Footprint") "F80 Electrolytic cap")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "100uF 25 VSMD")
+			)
+			(libsource
+				(lib "ALT")
+				(part "100uF_25V")
+				(description "100uF 25 VSMD")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Electrolytic Cap 100uF smd")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/master_board/master_board.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "34ee9425-7366-4e24-98c3-d19c2d4246f0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L1")
+			(value "LED BLUE")
+			(footprint "RES_1206_SMD")
+			(description "LED SMD 1206/0603")
+			(fields
+				(field
+					(name "Altium library reference") "LED")
+				(field
+					(name "Footprint") "RES_1206_SMD")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "LED SMD 1206/0603")
+			)
+			(libsource
+				(lib "ALT")
+				(part "L1")
+				(description "LED SMD 1206/0603")
+			)
+			(property
+				(name "Altium library reference")
+				(value "LED")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/master_board/master_board.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b105fcec-e5fc-460f-aa12-dfc3728e5243")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L2")
+			(value "LED RED")
+			(footprint "RES_1206_SMD")
+			(description "LED SMD 1206/0603")
+			(fields
+				(field
+					(name "Altium library reference") "LED")
+				(field
+					(name "Footprint") "RES_1206_SMD")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "LED SMD 1206/0603")
+			)
+			(libsource
+				(lib "ALT")
+				(part "L2")
+				(description "LED SMD 1206/0603")
+			)
+			(property
+				(name "Altium library reference")
+				(value "LED")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/master_board/master_board.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6f9d4a65-aac4-4fdc-8da6-e30bb630d391")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P1")
+			(value "Header 4X2")
+			(footprint "HDR2X4")
+			(description "Header, 4-Pin, Dual row")
+			(fields
+				(field
+					(name "Altium library reference") "Header 4X2")
+				(field
+					(name "Footprint") "HDR2X4")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Header, 4-Pin, Dual row")
+			)
+			(libsource
+				(lib "ALT")
+				(part "P1")
+				(description "Header, 4-Pin, Dual row")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Header 4X2")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/master_board/master_board.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dd6b8d3f-a8dd-494c-98e3-60485794abdf")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P2")
+			(value "Header 14")
+			(footprint "HDR1X14")
+			(description "Header, 14-Pin")
+			(fields
+				(field
+					(name "Altium library reference") "Header 14")
+				(field
+					(name "Footprint") "HDR1X14")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Header, 14-Pin")
+			)
+			(libsource
+				(lib "ALT")
+				(part "P2")
+				(description "Header, 14-Pin")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Header 14")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/master_board/master_board.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3f73934c-d262-4415-af50-d76146e3d0b9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P3")
+			(value "Header 14")
+			(footprint "HDR1X14")
+			(description "Header, 14-Pin")
+			(fields
+				(field
+					(name "Altium library reference") "Header 14")
+				(field
+					(name "Footprint") "HDR1X14")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Header, 14-Pin")
+			)
+			(libsource
+				(lib "ALT")
+				(part "P3")
+				(description "Header, 14-Pin")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Header 14")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/master_board/master_board.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "912b1f35-26a6-461d-9363-d7df53e50d56")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P4")
+			(value "Header 5")
+			(footprint "HDR1X5")
+			(description "Header, 5-Pin")
+			(fields
+				(field
+					(name "Altium library reference") "Header 5")
+				(field
+					(name "Footprint") "HDR1X5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Header, 5-Pin")
+			)
+			(libsource
+				(lib "ALT")
+				(part "P4")
+				(description "Header, 5-Pin")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Header 5")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/master_board/master_board.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3a144e23-79e5-4eca-944a-4c6516c3afa8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P5")
+			(value "JST SH 4 SIDE")
+			(footprint "JST SH 4 TOP ENTRY")
+			(fields
+				(field
+					(name "Altium library reference") "JST SH 4 SIDE")
+				(field
+					(name "Footprint") "JST SH 4 TOP ENTRY")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "P5")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "JST SH 4 SIDE")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/master_board/master_board.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1230ef3f-f6a5-4c9d-8a1e-f7ab8cbe3c49")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P6")
+			(value "JST SH 4 SIDE")
+			(footprint "JST SH 4 TOP ENTRY")
+			(fields
+				(field
+					(name "Altium library reference") "JST SH 4 SIDE")
+				(field
+					(name "Footprint") "JST SH 4 TOP ENTRY")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "P6")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "JST SH 4 SIDE")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/master_board/master_board.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "da14f42d-b0ec-4a80-85ff-6c5ff9e950da")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P7")
+			(value "JST SH 4 SIDE")
+			(footprint "JST SH 4 TOP ENTRY")
+			(fields
+				(field
+					(name "Altium library reference") "JST SH 4 SIDE")
+				(field
+					(name "Footprint") "JST SH 4 TOP ENTRY")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "P7")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "JST SH 4 SIDE")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/master_board/master_board.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dea603c9-61cd-4911-8932-1f77c6b83bd8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P8")
+			(value "JST SH 4 SIDE")
+			(footprint "JST SH 4 TOP ENTRY")
+			(fields
+				(field
+					(name "Altium library reference") "JST SH 4 SIDE")
+				(field
+					(name "Footprint") "JST SH 4 TOP ENTRY")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "P8")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "JST SH 4 SIDE")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/master_board/master_board.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3c48375f-e1df-42cc-8ed9-d587842ccc17")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "300")
+			(footprint "RES_1206_SMD")
+			(fields
+				(field
+					(name "Altium library reference") "Resistor")
+				(field
+					(name "Footprint") "RES_1206_SMD")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "R1")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/master_board/master_board.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "47ad69d9-9fb4-436f-a7f7-9c02aa87e75a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "300")
+			(footprint "RES_1206_SMD")
+			(fields
+				(field
+					(name "Altium library reference") "Resistor")
+				(field
+					(name "Footprint") "RES_1206_SMD")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "R2")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/master_board/master_board.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ae43f37e-a812-4348-aee7-1043f8f56ff9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "teensy 3.2")
+			(footprint "Teensy 3.2")
+			(fields
+				(field
+					(name "Altium library reference") "teensy 3.2")
+				(field
+					(name "Footprint") "Teensy 3.2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "U1")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "teensy 3.2")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/master_board/master_board.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "efafa7f5-1471-42bc-8618-ca8b5ffc9cfd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "31")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "33")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "ALT")
+			(part "100uF_25V")
+			(description "100uF 25 VSMD")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "Electrolytic Cap 100uF smd")
+				(field
+					(name "Footprint") "F80 Electrolytic cap")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "100uF 25 VSMD")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "L1")
+			(description "LED SMD 1206/0603")
+			(fields
+				(field
+					(name "Reference") "L")
+				(field
+					(name "Value") "LED BLUE")
+				(field
+					(name "Footprint") "RES_1206_SMD")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "LED SMD 1206/0603")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "K")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "L2")
+			(description "LED SMD 1206/0603")
+			(fields
+				(field
+					(name "Reference") "L")
+				(field
+					(name "Value") "LED RED")
+				(field
+					(name "Footprint") "RES_1206_SMD")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "LED SMD 1206/0603")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "K")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "P1")
+			(description "Header, 4-Pin, Dual row")
+			(fields
+				(field
+					(name "Reference") "P")
+				(field
+					(name "Value") "Header 4X2")
+				(field
+					(name "Footprint") "HDR2X4")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Header, 4-Pin, Dual row")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "8")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "P2")
+			(description "Header, 14-Pin")
+			(fields
+				(field
+					(name "Reference") "P")
+				(field
+					(name "Value") "Header 14")
+				(field
+					(name "Footprint") "HDR1X14")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Header, 14-Pin")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "8")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "9")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "10")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "11")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "12")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "13")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "14")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "P3")
+			(description "Header, 14-Pin")
+			(fields
+				(field
+					(name "Reference") "P")
+				(field
+					(name "Value") "Header 14")
+				(field
+					(name "Footprint") "HDR1X14")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Header, 14-Pin")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "8")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "9")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "10")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "11")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "12")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "13")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "14")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "P4")
+			(description "Header, 5-Pin")
+			(fields
+				(field
+					(name "Reference") "P")
+				(field
+					(name "Value") "Header 5")
+				(field
+					(name "Footprint") "HDR1X5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Header, 5-Pin")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "5")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "P5")
+			(fields
+				(field
+					(name "Reference") "P")
+				(field
+					(name "Value") "JST SH 4 SIDE")
+				(field
+					(name "Footprint") "JST SH 4 TOP ENTRY")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "P6")
+			(fields
+				(field
+					(name "Reference") "P")
+				(field
+					(name "Value") "JST SH 4 SIDE")
+				(field
+					(name "Footprint") "JST SH 4 TOP ENTRY")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "P7")
+			(fields
+				(field
+					(name "Reference") "P")
+				(field
+					(name "Value") "JST SH 4 SIDE")
+				(field
+					(name "Footprint") "JST SH 4 TOP ENTRY")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "P8")
+			(fields
+				(field
+					(name "Reference") "P")
+				(field
+					(name "Value") "JST SH 4 SIDE")
+				(field
+					(name "Footprint") "JST SH 4 TOP ENTRY")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "R1")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "300")
+				(field
+					(name "Footprint") "RES_1206_SMD")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "R2")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "300")
+				(field
+					(name "Footprint") "RES_1206_SMD")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "U1")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "teensy 3.2")
+				(field
+					(name "Footprint") "Teensy 3.2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "D0")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "D1")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "D2")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "D3")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "D4")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "D5")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "D6")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "D7")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "D8")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "D9")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "D10")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "D11")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "D12")
+					(type "passive")
+				)
+				(pin
+					(num "15")
+					(name "D13")
+					(type "passive")
+				)
+				(pin
+					(num "16")
+					(name "D14")
+					(type "passive")
+				)
+				(pin
+					(num "17")
+					(name "D15")
+					(type "passive")
+				)
+				(pin
+					(num "18")
+					(name "D16")
+					(type "passive")
+				)
+				(pin
+					(num "19")
+					(name "D17")
+					(type "passive")
+				)
+				(pin
+					(num "20")
+					(name "D18")
+					(type "passive")
+				)
+				(pin
+					(num "21")
+					(name "D19")
+					(type "passive")
+				)
+				(pin
+					(num "22")
+					(name "D20")
+					(type "passive")
+				)
+				(pin
+					(num "23")
+					(name "D21")
+					(type "passive")
+				)
+				(pin
+					(num "24")
+					(name "D22")
+					(type "passive")
+				)
+				(pin
+					(num "25")
+					(name "D23")
+					(type "passive")
+				)
+				(pin
+					(num "26")
+					(name "3.3V")
+					(type "passive")
+				)
+				(pin
+					(num "27")
+					(name "AGND")
+					(type "passive")
+				)
+				(pin
+					(num "28")
+					(name "Vin")
+					(type "passive")
+				)
+				(pin
+					(num "29")
+					(name "Vbat")
+					(type "passive")
+				)
+				(pin
+					(num "30")
+					(name "3.3V")
+					(type "passive")
+				)
+				(pin
+					(num "31")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "32")
+					(name "PROG")
+					(type "passive")
+				)
+				(pin
+					(num "33")
+					(name "DAC")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries)
+	(nets
+		(net
+			(code "1")
+			(name "/CE")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "P2")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "12")
+				(pinfunction "D10_12")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "/CSN")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "P2")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "11")
+				(pinfunction "D9_11")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "/D2")
+			(class "Default")
+			(node
+				(ref "P2")
+				(pin "11")
+				(pinfunction "11_11")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "D2_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "/D3")
+			(class "Default")
+			(node
+				(ref "P2")
+				(pin "10")
+				(pinfunction "10_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "D3_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "/D4")
+			(class "Default")
+			(node
+				(ref "P2")
+				(pin "9")
+				(pinfunction "9_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "D4_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "/D14")
+			(class "Default")
+			(node
+				(ref "P3")
+				(pin "13")
+				(pinfunction "13_13")
+				(pintype "passive")
+			)
+			(node
+				(ref "P6")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "16")
+				(pinfunction "D14_16")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "/D15")
+			(class "Default")
+			(node
+				(ref "P3")
+				(pin "12")
+				(pinfunction "12_12")
+				(pintype "passive")
+			)
+			(node
+				(ref "P6")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "17")
+				(pinfunction "D15_17")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "/D16")
+			(class "Default")
+			(node
+				(ref "P3")
+				(pin "11")
+				(pinfunction "11_11")
+				(pintype "passive")
+			)
+			(node
+				(ref "P8")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "18")
+				(pinfunction "D16_18")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "/D17")
+			(class "Default")
+			(node
+				(ref "P3")
+				(pin "10")
+				(pinfunction "10_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "P8")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "19")
+				(pinfunction "D17_19")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "/D18")
+			(class "Default")
+			(node
+				(ref "P3")
+				(pin "9")
+				(pinfunction "9_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "P5")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "20")
+				(pinfunction "D18_20")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "/D19")
+			(class "Default")
+			(node
+				(ref "P3")
+				(pin "8")
+				(pinfunction "8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "P5")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "21")
+				(pinfunction "D19_21")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "12")
+			(name "/D20")
+			(class "Default")
+			(node
+				(ref "P3")
+				(pin "7")
+				(pinfunction "7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "22")
+				(pinfunction "D20_22")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "13")
+			(name "/D21")
+			(class "Default")
+			(node
+				(ref "P3")
+				(pin "6")
+				(pinfunction "6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "23")
+				(pinfunction "D21_23")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "14")
+			(name "/D22")
+			(class "Default")
+			(node
+				(ref "P3")
+				(pin "5")
+				(pinfunction "5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "P7")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "24")
+				(pinfunction "D22_24")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "15")
+			(name "/D23")
+			(class "Default")
+			(node
+				(ref "P3")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "P7")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "25")
+				(pinfunction "D23_25")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "16")
+			(name "/IRQ")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "8")
+				(pinfunction "8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "P2")
+				(pin "8")
+				(pinfunction "8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "D5_7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "17")
+			(name "/LED1")
+			(class "Default")
+			(node
+				(ref "L1")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P2")
+				(pin "13")
+				(pinfunction "13_13")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "D0_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "18")
+			(name "/LED2")
+			(class "Default")
+			(node
+				(ref "L2")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P2")
+				(pin "12")
+				(pinfunction "12_12")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "D1_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
+			(name "/MISO")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "7")
+				(pinfunction "7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "P2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "14")
+				(pinfunction "D12_14")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "20")
+			(name "/MOSI")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "6")
+				(pinfunction "6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "P2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "13")
+				(pinfunction "D11_13")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "21")
+			(name "/SCK")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "5")
+				(pinfunction "5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "P3")
+				(pin "14")
+				(pinfunction "14_14")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "15")
+				(pinfunction "D13_15")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "100uF 25V")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "P1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P2")
+				(pin "14")
+				(pinfunction "14_14")
+				(pintype "passive")
+			)
+			(node
+				(ref "P5")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "P6")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "P7")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "P8")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
+			(name "Net-(L1-K)")
+			(class "Default")
+			(node
+				(ref "L1")
+				(pin "2")
+				(pinfunction "K_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "Net-(L2-K)")
+			(class "Default")
+			(node
+				(ref "L2")
+				(pin "2")
+				(pinfunction "K_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "25")
+			(name "Net-(P4-Pad3)")
+			(class "Default")
+			(node
+				(ref "P4")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "31")
+				(pinfunction "GND_31")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "26")
+			(name "Net-(U1-AGND)")
+			(class "Default")
+			(node
+				(ref "P3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "27")
+				(pinfunction "AGND_27")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "27")
+			(name "Net-(U1-D6)")
+			(class "Default")
+			(node
+				(ref "P2")
+				(pin "7")
+				(pinfunction "7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "D6_8")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "28")
+			(name "Net-(U1-D7)")
+			(class "Default")
+			(node
+				(ref "P2")
+				(pin "6")
+				(pinfunction "6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "9")
+				(pinfunction "D7_9")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "29")
+			(name "Net-(U1-D8)")
+			(class "Default")
+			(node
+				(ref "P2")
+				(pin "5")
+				(pinfunction "5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "10")
+				(pinfunction "D8_10")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "30")
+			(name "Net-(U1-DAC)")
+			(class "Default")
+			(node
+				(ref "P4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "33")
+				(pinfunction "DAC_33")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "31")
+			(name "Net-(U1-PROG)")
+			(class "Default")
+			(node
+				(ref "P4")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "32")
+				(pinfunction "PROG_32")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "32")
+			(name "Net-(U1-Vbat)")
+			(class "Default")
+			(node
+				(ref "P4")
+				(pin "5")
+				(pinfunction "5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "29")
+				(pinfunction "Vbat_29")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "33")
+			(name "Net-(U1-Vin)")
+			(class "Default")
+			(node
+				(ref "P3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "28")
+				(pinfunction "Vin_28")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "34")
+			(name "VCC")
+			(class "Default")
+			(node
+				(ref "100uF 25V")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "P3")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "P4")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "P5")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P6")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P7")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P8")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "26")
+				(pinfunction "3.3V_26")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "30")
+				(pinfunction "3.3V_30")
+				(pintype "passive")
+			)
+		)
+	)
+)

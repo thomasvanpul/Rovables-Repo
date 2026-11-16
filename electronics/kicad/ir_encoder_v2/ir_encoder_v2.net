@@ -1,0 +1,729 @@
+(export
+	(version "E")
+	(design
+		(source "/Users/TvpPro/dev/rovables/electronics/kicad/ir_encoder_v2/ir_encoder_v2.kicad_sch")
+		(date "2026-11-16T21:11:42")
+		(tool "Eeschema 10.0.3")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "ir_encoder_v2")
+				(company)
+				(rev)
+				(date)
+				(source "ir_encoder_v2.kicad_sch")
+				(comment
+					(number "1")
+					(value "Converted from the authors' Altium schematic by altium_sch_import.py")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "P3")
+			(value "FH33J-4S-0.5SH(99)")
+			(footprint "FH33J-4S-0.5SH(99)")
+			(description "0.5mm FPC connector")
+			(fields
+				(field
+					(name "Altium library reference") "FH33J-4S-0.5SH(99)")
+				(field
+					(name "Footprint") "FH33J-4S-0.5SH(99)")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "0.5mm FPC connector")
+			)
+			(libsource
+				(lib "ALT")
+				(part "P3")
+				(description "0.5mm FPC connector")
+			)
+			(property
+				(name "Altium library reference")
+				(value "FH33J-4S-0.5SH(99)")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/ir_encoder_v2/ir_encoder_v2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d58cb521-7d77-429b-9490-112615092174")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "100")
+			(footprint "0603W")
+			(fields
+				(field
+					(name "Altium library reference") "Resistor")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "R1")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/ir_encoder_v2/ir_encoder_v2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "87fbf4a0-1d73-4165-8611-94a05147131b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "10K")
+			(footprint "0603W")
+			(fields
+				(field
+					(name "Altium library reference") "Resistor")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "R2")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/ir_encoder_v2/ir_encoder_v2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c93e8402-f69f-4700-969e-cd32d4980437")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "10K")
+			(footprint "0603W")
+			(fields
+				(field
+					(name "Altium library reference") "Resistor")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "R3")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/ir_encoder_v2/ir_encoder_v2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "73be56b0-bed1-426f-af8d-612d763f0383")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "MOSFET N CHANNEL")
+			(footprint "SOT323")
+			(fields
+				(field
+					(name "Altium library reference") "MOSFET N CHANNEL")
+				(field
+					(name "Footprint") "SOT323")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "U1")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "MOSFET N CHANNEL")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/ir_encoder_v2/ir_encoder_v2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ac2c180e-db35-444c-be35-8aa1d6ace793")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U5")
+			(value "GP2S60")
+			(footprint "GP2S60")
+			(fields
+				(field
+					(name "Altium library reference") "GP2S60")
+				(field
+					(name "Footprint") "GP2S60")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "U5")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "GP2S60")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/ir_encoder_v2/ir_encoder_v2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "59558cf0-2d84-4cb9-a8b2-c8997d3f018a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "ALT")
+			(part "P3")
+			(description "0.5mm FPC connector")
+			(fields
+				(field
+					(name "Reference") "P")
+				(field
+					(name "Value") "FH33J-4S-0.5SH(99)")
+				(field
+					(name "Footprint") "FH33J-4S-0.5SH(99)")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "0.5mm FPC connector")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "R1")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "100")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "R2")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "10K")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "R3")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "10K")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "U1")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "MOSFET N CHANNEL")
+				(field
+					(name "Footprint") "SOT323")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "G")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "S")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "D")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "U5")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "GP2S60")
+				(field
+					(name "Footprint") "GP2S60")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries)
+	(nets
+		(net
+			(code "1")
+			(name "/ENC_OUT")
+			(class "Default")
+			(node
+				(ref "P3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "/IR_SEND")
+			(class "Default")
+			(node
+				(ref "P3")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "P3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "S_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "Net-(R1-Pad1)")
+			(class "Default")
+			(node
+				(ref "R1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "Net-(U1-D)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "VCC")
+			(class "Default")
+			(node
+				(ref "P3")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+	)
+)

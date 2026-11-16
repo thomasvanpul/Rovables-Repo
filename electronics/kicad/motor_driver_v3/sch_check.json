@@ -1,0 +1,66 @@
+{
+ "loads_in_kicad_cli": true,
+ "netlist_rc": 0,
+ "erc": {
+  "error:pin_not_connected": 16,
+  "error:power_pin_not_driven": 5,
+  "warning:footprint_link_issues": 58,
+  "warning:isolated_pin_label": 5,
+  "warning:lib_symbol_issues": 121,
+  "warning:unconnected_wire_endpoint": 9
+ },
+ "erc_rc": 0,
+ "pdf_rc": 0,
+ "against_board": {
+  "components_in_schematic": 57,
+  "components_on_board": 58,
+  "only_in_schematic": [
+   "SW1"
+  ],
+  "only_on_board": [
+   "",
+   "*1"
+  ],
+  "pins_compared": 241,
+  "pins_only_in_schematic": [
+   "U*1.49"
+  ],
+  "pins_only_on_board": [
+   "A1.2",
+   "A1.3",
+   "A1.4",
+   "P3.5",
+   "P3.6",
+   "P5.5",
+   "P5.6",
+   "P6.5",
+   "P6.6",
+   "U9.1",
+   "U9.14",
+   "U9.15",
+   "U9.16",
+   "U9.17",
+   "U9.19",
+   "U9.2",
+   "U9.21",
+   "U9.3",
+   "U9.4",
+   "U9.5",
+   "U9.6",
+   "U9.7"
+  ],
+  "nets_in_schematic": 76,
+  "nets_on_board": 77,
+  "nets_identical": 75,
+  "nets_that_differ": [
+   {
+    "schematic_net": "VBAT",
+    "pins": [
+     "C23.1",
+     "P4.1",
+     "U4.3"
+    ]
+   }
+  ]
+ }
+}

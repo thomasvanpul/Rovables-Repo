@@ -1,0 +1,7658 @@
+(export
+	(version "E")
+	(design
+		(source "/Users/TvpPro/dev/rovables/electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+		(date "2026-11-16T21:11:39")
+		(tool "Eeschema 10.0.3")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "motor_driver_v3")
+				(company)
+				(rev)
+				(date)
+				(source "motor_driver_v3.kicad_sch")
+				(comment
+					(number "1")
+					(value "Converted from the authors' Altium schematic by altium_sch_import.py")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "A1")
+			(value "2.4GHz SMT On-ground MID Chip Antenna")
+			(footprint "47948-0001")
+			(description "Bluetooth antenna")
+			(fields
+				(field
+					(name "Altium library reference") "2.4GHz SMT On-ground MID Chip Antenna")
+				(field
+					(name "Footprint") "47948-0001")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Bluetooth antenna")
+			)
+			(libsource
+				(lib "ALT")
+				(part "A1")
+				(description "Bluetooth antenna")
+			)
+			(property
+				(name "Altium library reference")
+				(value "2.4GHz SMT On-ground MID Chip Antenna")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "df2759ac-241c-4b6f-9bf4-1ca5699a1c6e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "B1")
+			(value "2.45 GHz Bulan")
+			(footprint "2450BM14A0002")
+			(description "for nRF8001 chip")
+			(fields
+				(field
+					(name "Altium library reference") "2.45 GHz Bulan")
+				(field
+					(name "Footprint") "2450BM14A0002")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "for nRF8001 chip")
+			)
+			(libsource
+				(lib "ALT")
+				(part "B1")
+				(description "for nRF8001 chip")
+			)
+			(property
+				(name "Altium library reference")
+				(value "2.45 GHz Bulan")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c639a805-3fcd-417b-8294-685f0810f782")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C1")
+			(value "100uF 6.3V")
+			(footprint "CAP1206")
+			(description "Polarised capacitor")
+			(fields
+				(field
+					(name "Altium library reference") "Capacitor_pol")
+				(field
+					(name "Footprint") "CAP1206")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarised capacitor")
+			)
+			(libsource
+				(lib "ALT")
+				(part "C1")
+				(description "Polarised capacitor")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Capacitor_pol")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "13f315e6-1d56-485e-9577-9ab5ba50bab2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "10uF 16V")
+			(footprint "CAP0805")
+			(description "Polarised capacitor")
+			(fields
+				(field
+					(name "Altium library reference") "Capacitor_pol")
+				(field
+					(name "Footprint") "CAP0805")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarised capacitor")
+			)
+			(libsource
+				(lib "ALT")
+				(part "C2")
+				(description "Polarised capacitor")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Capacitor_pol")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3858c1bb-3ad3-4dcc-8036-271b46f31e5e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "10uF 6.3V")
+			(footprint "0805 TANTALUM")
+			(description "Polarised capacitor")
+			(fields
+				(field
+					(name "Altium library reference") "Capacitor_pol")
+				(field
+					(name "Footprint") "0805 TANTALUM")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarised capacitor")
+			)
+			(libsource
+				(lib "ALT")
+				(part "C3")
+				(description "Polarised capacitor")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Capacitor_pol")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ab56097f-aa0d-4dc4-846c-c1f2b213f77c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C5")
+			(value "0.1uF")
+			(footprint "0603W")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Altium library reference") "Capacitor")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(libsource
+				(lib "ALT")
+				(part "C5")
+				(description "SMD Cap 1206")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b9158180-112a-46c5-be1b-5041bf834a2a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C6")
+			(value "0.1uF")
+			(footprint "0402 CAPACITOR")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Altium library reference") "Capacitor")
+				(field
+					(name "Footprint") "0402 CAPACITOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(libsource
+				(lib "ALT")
+				(part "C6")
+				(description "SMD Cap 1206")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "22b75e4c-1f61-47bb-998b-95984db1eee6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C8")
+			(value "18pF")
+			(footprint "0402 CAPACITOR")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Altium library reference") "Capacitor")
+				(field
+					(name "Footprint") "0402 CAPACITOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(libsource
+				(lib "ALT")
+				(part "C8")
+				(description "SMD Cap 1206")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "744a0bc5-ac5f-4fe3-903d-c1e35691dcb7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C9")
+			(value "18pF")
+			(footprint "0402 CAPACITOR")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Altium library reference") "Capacitor")
+				(field
+					(name "Footprint") "0402 CAPACITOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(libsource
+				(lib "ALT")
+				(part "C9")
+				(description "SMD Cap 1206")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e55f7bfd-0b37-4af5-acb6-0f06eb408e3b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C10")
+			(value "0.1uF")
+			(footprint "0402 CAPACITOR")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Altium library reference") "Capacitor")
+				(field
+					(name "Footprint") "0402 CAPACITOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(libsource
+				(lib "ALT")
+				(part "C10")
+				(description "SMD Cap 1206")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "85536682-dca2-41ba-981e-93fd40441d1d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C11")
+			(value "33nF X7R, +/- 10%")
+			(footprint "0402 CAPACITOR")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Altium library reference") "Capacitor")
+				(field
+					(name "Footprint") "0402 CAPACITOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(libsource
+				(lib "ALT")
+				(part "C11")
+				(description "SMD Cap 1206")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d94d35ec-19f0-4ecc-8bc5-c56c5d1d540f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C12")
+			(value "0.1uF")
+			(footprint "0603W")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Altium library reference") "Capacitor")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(libsource
+				(lib "ALT")
+				(part "C12")
+				(description "SMD Cap 1206")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "292b5345-79dd-4e1c-970c-2e1f5208bb94")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C14")
+			(value "6pF NPO, +/- 2%")
+			(footprint "0402 CAPACITOR")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Altium library reference") "Capacitor")
+				(field
+					(name "Footprint") "0402 CAPACITOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(libsource
+				(lib "ALT")
+				(part "C14")
+				(description "SMD Cap 1206")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6066f5e3-022f-467a-9cf6-4f22dc44b62a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C15")
+			(value "6pF NPO, +/- 2%")
+			(footprint "0402 CAPACITOR")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Altium library reference") "Capacitor")
+				(field
+					(name "Footprint") "0402 CAPACITOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(libsource
+				(lib "ALT")
+				(part "C15")
+				(description "SMD Cap 1206")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c433c118-315e-422f-bb3f-82bc5ab3b341")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C16")
+			(value "2200pF 5%")
+			(footprint "0402 CAPACITOR")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Altium library reference") "Capacitor")
+				(field
+					(name "Footprint") "0402 CAPACITOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(libsource
+				(lib "ALT")
+				(part "C16")
+				(description "SMD Cap 1206")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "16aa5951-c9fa-48e8-8ee1-a5f55a0108c7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C17")
+			(value "0.1uF")
+			(footprint "0402 CAPACITOR")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Altium library reference") "Capacitor")
+				(field
+					(name "Footprint") "0402 CAPACITOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(libsource
+				(lib "ALT")
+				(part "C17")
+				(description "SMD Cap 1206")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "60e3292e-9699-44ec-b469-84b36482e101")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C18")
+			(value "0.1uF")
+			(footprint "0402 CAPACITOR")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Altium library reference") "Capacitor")
+				(field
+					(name "Footprint") "0402 CAPACITOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(libsource
+				(lib "ALT")
+				(part "C18")
+				(description "SMD Cap 1206")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "820b12c7-9327-4d0b-b2d2-0a201565dbf4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C19")
+			(value "2200pF 5%")
+			(footprint "0402 CAPACITOR")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Altium library reference") "Capacitor")
+				(field
+					(name "Footprint") "0402 CAPACITOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(libsource
+				(lib "ALT")
+				(part "C19")
+				(description "SMD Cap 1206")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5dd24ba6-0e75-48ea-b1ab-2aa2d8d8e0ad")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C20")
+			(value "10000pF")
+			(footprint "0402 CAPACITOR")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Altium library reference") "Capacitor")
+				(field
+					(name "Footprint") "0402 CAPACITOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(libsource
+				(lib "ALT")
+				(part "C20")
+				(description "SMD Cap 1206")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "140b2aa1-d857-45d9-84b1-2214decf52f9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C22")
+			(value "10uF 16V")
+			(footprint "0603W")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Altium library reference") "Capacitor")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(libsource
+				(lib "ALT")
+				(part "C22")
+				(description "SMD Cap 1206")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "71c45873-ddb8-43ba-acf5-5ba5ffb51117")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C23")
+			(value "4.7uF 10V")
+			(footprint "0603W")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Altium library reference") "Capacitor")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(libsource
+				(lib "ALT")
+				(part "C23")
+				(description "SMD Cap 1206")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cbb8e57e-9ea2-42a6-96fd-034efb1e1ff0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L1")
+			(value "Ferrite bead")
+			(footprint "0603W")
+			(fields
+				(field
+					(name "Altium library reference") "INDUCTOR Low DCR")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "L1")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "INDUCTOR Low DCR")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "66210a36-9f73-4746-a157-6e05883c9d6a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED1")
+			(value "LED BLUE")
+			(footprint "0402W")
+			(description "LED SMD 1206/0603")
+			(fields
+				(field
+					(name "Altium library reference") "LED")
+				(field
+					(name "Footprint") "0402W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "LED SMD 1206/0603")
+			)
+			(libsource
+				(lib "ALT")
+				(part "LED1")
+				(description "LED SMD 1206/0603")
+			)
+			(property
+				(name "Altium library reference")
+				(value "LED")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "06334bce-ec18-465a-a19e-d65d416ea906")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED2")
+			(value "LED RED")
+			(footprint "0402W")
+			(description "LED SMD 1206/0603")
+			(fields
+				(field
+					(name "Altium library reference") "LED")
+				(field
+					(name "Footprint") "0402W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "LED SMD 1206/0603")
+			)
+			(libsource
+				(lib "ALT")
+				(part "LED2")
+				(description "LED SMD 1206/0603")
+			)
+			(property
+				(name "Altium library reference")
+				(value "LED")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6bda5e62-c7f9-4e15-b070-15f3060d8b59")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED3")
+			(value "LED ORANGE")
+			(footprint "0402W")
+			(description "LED SMD 1206/0603")
+			(fields
+				(field
+					(name "Altium library reference") "LED")
+				(field
+					(name "Footprint") "0402W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "LED SMD 1206/0603")
+			)
+			(libsource
+				(lib "ALT")
+				(part "LED3")
+				(description "LED SMD 1206/0603")
+			)
+			(property
+				(name "Altium library reference")
+				(value "LED")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d543daf4-af17-4071-b60f-0dc8805d3795")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "O1")
+			(value "32.768 kHz")
+			(footprint "32.768 Crystal")
+			(fields
+				(field
+					(name "Altium library reference") "32.768 Crystal")
+				(field
+					(name "Footprint") "32.768 Crystal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "O1")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "32.768 Crystal")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5a22d2ed-9150-4a7c-a1bf-55ff76eb6f8d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "O2")
+			(value "16 MHz Crystal Cl=8pF")
+			(footprint "2.5 x 2.0 crystal")
+			(description "For BLE use")
+			(fields
+				(field
+					(name "Altium library reference") "16 MHz Crystal Wireless")
+				(field
+					(name "Footprint") "2.5 x 2.0 crystal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "For BLE use")
+			)
+			(libsource
+				(lib "ALT")
+				(part "O2")
+				(description "For BLE use")
+			)
+			(property
+				(name "Altium library reference")
+				(value "16 MHz Crystal Wireless")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7e5d9f99-ae75-4389-95e6-b6242d8d2f9f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P3")
+			(value "FH33J-4S-0.5SH(99)")
+			(footprint "FH33J-4S-0.5SH(99)")
+			(description "0.5mm FPC connector")
+			(fields
+				(field
+					(name "Altium library reference") "FH33J-4S-0.5SH(99)")
+				(field
+					(name "Footprint") "FH33J-4S-0.5SH(99)")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "0.5mm FPC connector")
+			)
+			(libsource
+				(lib "ALT")
+				(part "P3")
+				(description "0.5mm FPC connector")
+			)
+			(property
+				(name "Altium library reference")
+				(value "FH33J-4S-0.5SH(99)")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "62827511-9604-4583-8b56-d2ff6bf49bb5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P4")
+			(value "CONN HEADER 20POS")
+			(footprint "DF12 20 POS")
+			(fields
+				(field
+					(name "Altium library reference") "CONN HEADER 20POS")
+				(field
+					(name "Footprint") "DF12 20 POS")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "P4")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "CONN HEADER 20POS")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "177b15a9-ebe1-4ce3-9181-0f58797ab9e1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "20")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P5")
+			(value "FH33J-4S-0.5SH(99)")
+			(footprint "FH33J-4S-0.5SH(99)")
+			(description "0.5mm FPC connector")
+			(fields
+				(field
+					(name "Altium library reference") "FH33J-4S-0.5SH(99)")
+				(field
+					(name "Footprint") "FH33J-4S-0.5SH(99)")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "0.5mm FPC connector")
+			)
+			(libsource
+				(lib "ALT")
+				(part "P5")
+				(description "0.5mm FPC connector")
+			)
+			(property
+				(name "Altium library reference")
+				(value "FH33J-4S-0.5SH(99)")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4a8ae6a1-e34c-4698-b603-efe6430735c0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P6")
+			(value "FH33J-4S-0.5SH(99)")
+			(footprint "FH33J-4S-0.5SH(99)")
+			(description "0.5mm FPC connector")
+			(fields
+				(field
+					(name "Altium library reference") "FH33J-4S-0.5SH(99)")
+				(field
+					(name "Footprint") "FH33J-4S-0.5SH(99)")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "0.5mm FPC connector")
+			)
+			(libsource
+				(lib "ALT")
+				(part "P6")
+				(description "0.5mm FPC connector")
+			)
+			(property
+				(name "Altium library reference")
+				(value "FH33J-4S-0.5SH(99)")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2ecf8a89-8d94-4a3b-bcbb-133e55e013a0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "10K")
+			(footprint "0402 RESISTOR")
+			(fields
+				(field
+					(name "Altium library reference") "Resistor")
+				(field
+					(name "Footprint") "0402 RESISTOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "R2")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4367c46b-7253-4d37-aa43-042fb5311d02")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "0 Ohm")
+			(footprint "0402 RESISTOR")
+			(fields
+				(field
+					(name "Altium library reference") "Resistor")
+				(field
+					(name "Footprint") "0402 RESISTOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "R3")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7efedff9-4e9b-4478-bbce-4431d4697a84")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "DNP")
+			(footprint "0402 RESISTOR")
+			(fields
+				(field
+					(name "Altium library reference") "Resistor")
+				(field
+					(name "Footprint") "0402 RESISTOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "R4")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "daecde3c-e99b-45d2-85ea-a8810311901b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "DNP")
+			(footprint "0402 RESISTOR")
+			(fields
+				(field
+					(name "Altium library reference") "Resistor")
+				(field
+					(name "Footprint") "0402 RESISTOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "R5")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9c581a7a-62fd-42e5-b693-a609c2917b41")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R6")
+			(value "22K 1%")
+			(footprint "0402 RESISTOR")
+			(fields
+				(field
+					(name "Altium library reference") "Resistor")
+				(field
+					(name "Footprint") "0402 RESISTOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "R6")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "18a6f60e-a6a8-4227-a443-d65e898fdcad")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R7")
+			(value "330")
+			(footprint "0402 RESISTOR")
+			(fields
+				(field
+					(name "Altium library reference") "Resistor")
+				(field
+					(name "Footprint") "0402 RESISTOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "R7")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "fe487b07-3f84-4b75-8d70-fcd41464eef6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R8")
+			(value "330")
+			(footprint "0402 RESISTOR")
+			(fields
+				(field
+					(name "Altium library reference") "Resistor")
+				(field
+					(name "Footprint") "0402 RESISTOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "R8")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e75e77c2-ca6c-4d1a-9543-e4d24c16896a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R10")
+			(value "49.9K")
+			(footprint "0603W")
+			(fields
+				(field
+					(name "Altium library reference") "Resistor")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "R10")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e9e38cad-cc28-4ebe-b118-c425b3e5e54a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R11")
+			(value "20K")
+			(footprint "0603W")
+			(fields
+				(field
+					(name "Altium library reference") "Resistor")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "R11")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ae41b327-4349-4e52-8e46-d44dee749709")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R12")
+			(value "200K")
+			(footprint "0603W")
+			(fields
+				(field
+					(name "Altium library reference") "Resistor")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "R12")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "65c49f6b-3dc1-463c-a46b-4fc5249dd6bd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R13")
+			(value "49.9K")
+			(footprint "0603W")
+			(fields
+				(field
+					(name "Altium library reference") "Resistor")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "R13")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8afdddde-f5a6-476b-b563-34d87fae3c4e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R14")
+			(value "20K")
+			(footprint "0603W")
+			(fields
+				(field
+					(name "Altium library reference") "Resistor")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "R14")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1a2eaf01-8840-4720-8bbd-c5fccc9c0715")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R15")
+			(value "200K")
+			(footprint "0603W")
+			(fields
+				(field
+					(name "Altium library reference") "Resistor")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "R15")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d179a160-4125-4365-9cdf-360965bf7a0e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R16")
+			(value "4.7K 5%")
+			(footprint "0402 RESISTOR")
+			(fields
+				(field
+					(name "Altium library reference") "Resistor")
+				(field
+					(name "Footprint") "0402 RESISTOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "R16")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "203d3da6-45d3-4b68-af76-7058919f05ba")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R17")
+			(value "4.7K 5%")
+			(footprint "0402 RESISTOR")
+			(fields
+				(field
+					(name "Altium library reference") "Resistor")
+				(field
+					(name "Footprint") "0402 RESISTOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "R17")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "21198254-4f40-4b80-84a4-b2a7d03e4503")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R18")
+			(value "4.99K 1%")
+			(footprint "0603W")
+			(fields
+				(field
+					(name "Altium library reference") "Resistor")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "R18")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2f2c28a3-8de1-4142-90ec-a59d5abc36a0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R20")
+			(value "1K 5%")
+			(footprint "0603W")
+			(fields
+				(field
+					(name "Altium library reference") "Resistor")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "R20")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3bae1f7b-aea2-4368-88b5-37f8c1a82f56")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW1")
+			(value "ON_OFF_SWITCH")
+			(footprint "SWTICH_SMD_SIDE")
+			(description "SPDT SMD Side Switch")
+			(fields
+				(field
+					(name "Altium library reference") "ON_OFF_SWITCH")
+				(field
+					(name "Footprint") "SWTICH_SMD_SIDE")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SPDT SMD Side Switch")
+			)
+			(libsource
+				(lib "ALT")
+				(part "SW1")
+				(description "SPDT SMD Side Switch")
+			)
+			(property
+				(name "Altium library reference")
+				(value "ON_OFF_SWITCH")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a8076ff8-db87-4868-b2ba-cceba883348a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U*1")
+			(value "ATSAMD21G")
+			(footprint "TQFN48")
+			(description "IC MCU 32BIT 256KB FLASH 48TQFP")
+			(fields
+				(field
+					(name "Altium library reference") "ATSAMD21G")
+				(field
+					(name "Footprint") "TQFN48")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "IC MCU 32BIT 256KB FLASH 48TQFP")
+			)
+			(libsource
+				(lib "ALT")
+				(part "U_1")
+				(description "IC MCU 32BIT 256KB FLASH 48TQFP")
+			)
+			(property
+				(name "Altium library reference")
+				(value "ATSAMD21G")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e0511fef-88bd-4a34-be26-51426334ed00")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "49")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "48")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "47")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "46")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "45")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "44")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "43")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "42")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "41")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "40")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "39")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "38")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "37")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "36")
+						)
+						(pin
+							(num "35")
+						)
+						(pin
+							(num "34")
+						)
+						(pin
+							(num "33")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "31")
+						)
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "25")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "3.3V REG 0.5A")
+			(footprint "SOT-23-5")
+			(description "5V LDO SMD")
+			(fields
+				(field
+					(name "Altium library reference") "MIC5205_VOLTAGE_REG")
+				(field
+					(name "Footprint") "SOT-23-5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "5V LDO SMD")
+			)
+			(libsource
+				(lib "ALT")
+				(part "U1")
+				(description "5V LDO SMD")
+			)
+			(property
+				(name "Altium library reference")
+				(value "MIC5205_VOLTAGE_REG")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "447f8835-68a1-44b4-b2ab-aa1daada2011")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "3.3 V REG 0.15A")
+			(footprint "SOT-23-5")
+			(description "5V LDO SMD")
+			(fields
+				(field
+					(name "Altium library reference") "MIC5205_VOLTAGE_REG")
+				(field
+					(name "Footprint") "SOT-23-5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "5V LDO SMD")
+			)
+			(libsource
+				(lib "ALT")
+				(part "U2")
+				(description "5V LDO SMD")
+			)
+			(property
+				(name "Altium library reference")
+				(value "MIC5205_VOLTAGE_REG")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b973b553-96c2-4a01-a1c3-c199493a32e1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U4")
+			(value "MCP73831T")
+			(footprint "SOT-23-5")
+			(fields
+				(field
+					(name "Altium library reference") "MCP73831T")
+				(field
+					(name "Footprint") "SOT-23-5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "U4")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "MCP73831T")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "916f177a-9066-4395-89b7-9a19d54e2199")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U6")
+			(value "nRF24L01+")
+			(footprint "QFN20")
+			(description "2.4 GHz Radio")
+			(fields
+				(field
+					(name "Altium library reference") "nRF24L01+")
+				(field
+					(name "Footprint") "QFN20")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "2.4 GHz Radio")
+			)
+			(libsource
+				(lib "ALT")
+				(part "U6")
+				(description "2.4 GHz Radio")
+			)
+			(property
+				(name "Altium library reference")
+				(value "nRF24L01+")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b06644cd-f411-4d84-a88a-789a3360dd53")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U8")
+			(value "DRV8835")
+			(footprint "WSON-16")
+			(fields
+				(field
+					(name "Altium library reference") "DRV8835")
+				(field
+					(name "Footprint") "WSON-16")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ALT")
+				(part "U8")
+				(description "")
+			)
+			(property
+				(name "Altium library reference")
+				(value "DRV8835")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d6a96ade-07d2-42ad-a8e0-326b99cc4245")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "0")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "7")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U9")
+			(value "MPU 6050")
+			(footprint "QFN24")
+			(description "Gyro / accelerometer combo")
+			(fields
+				(field
+					(name "Altium library reference") "MPU_6500")
+				(field
+					(name "Footprint") "QFN24")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Gyro / accelerometer combo")
+			)
+			(libsource
+				(lib "ALT")
+				(part "U9")
+				(description "Gyro / accelerometer combo")
+			)
+			(property
+				(name "Altium library reference")
+				(value "MPU_6500")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "76ff5b20-f335-4799-96e6-ebbf0de21f6f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "20")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U10")
+			(value "MCP6422")
+			(footprint "MSOP-MS8_N")
+			(description "4.4 µA/Amplifier, 90 kHz Op Amp")
+			(fields
+				(field
+					(name "Altium library reference") "MCP6422")
+				(field
+					(name "Footprint") "MSOP-MS8_N")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "4.4 µA/Amplifier, 90 kHz Op Amp")
+			)
+			(libsource
+				(lib "ALT")
+				(part "U10")
+				(description "4.4 µA/Amplifier, 90 kHz Op Amp")
+			)
+			(property
+				(name "Altium library reference")
+				(value "MCP6422")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "electronics/kicad/motor_driver_v3/motor_driver_v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ff8e0b65-a251-4683-91bc-5e782fc4fbaf" "eb89bd0f-8061-4e5a-b385-0e5eff49eebb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "7")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "ALT")
+			(part "A1")
+			(description "Bluetooth antenna")
+			(fields
+				(field
+					(name "Reference") "A")
+				(field
+					(name "Value") "2.4GHz SMT On-ground MID Chip Antenna")
+				(field
+					(name "Footprint") "47948-0001")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Bluetooth antenna")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "B1")
+			(description "for nRF8001 chip")
+			(fields
+				(field
+					(name "Reference") "B")
+				(field
+					(name "Value") "2.45 GHz Bulan")
+				(field
+					(name "Footprint") "2450BM14A0002")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "for nRF8001 chip")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "UNBAL")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "BAL2")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "BAL1")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "DC")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "NC")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "C1")
+			(description "Polarised capacitor")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "100uF 6.3V")
+				(field
+					(name "Footprint") "CAP1206")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarised capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "C10")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "0.1uF")
+				(field
+					(name "Footprint") "0402 CAPACITOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "C11")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "33nF X7R, +/- 10%")
+				(field
+					(name "Footprint") "0402 CAPACITOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "C12")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "0.1uF")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "C14")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "6pF NPO, +/- 2%")
+				(field
+					(name "Footprint") "0402 CAPACITOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "C15")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "6pF NPO, +/- 2%")
+				(field
+					(name "Footprint") "0402 CAPACITOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "C16")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "2200pF 5%")
+				(field
+					(name "Footprint") "0402 CAPACITOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "C17")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "0.1uF")
+				(field
+					(name "Footprint") "0402 CAPACITOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "C18")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "0.1uF")
+				(field
+					(name "Footprint") "0402 CAPACITOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "C19")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "2200pF 5%")
+				(field
+					(name "Footprint") "0402 CAPACITOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "C2")
+			(description "Polarised capacitor")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "10uF 16V")
+				(field
+					(name "Footprint") "CAP0805")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarised capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "C20")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "10000pF")
+				(field
+					(name "Footprint") "0402 CAPACITOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "C22")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "10uF 16V")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "C23")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "4.7uF 10V")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "C3")
+			(description "Polarised capacitor")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "10uF 6.3V")
+				(field
+					(name "Footprint") "0805 TANTALUM")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarised capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "C5")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "0.1uF")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "C6")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "0.1uF")
+				(field
+					(name "Footprint") "0402 CAPACITOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "C8")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "18pF")
+				(field
+					(name "Footprint") "0402 CAPACITOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "C9")
+			(description "SMD Cap 1206")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "18pF")
+				(field
+					(name "Footprint") "0402 CAPACITOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Cap 1206")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "L1")
+			(fields
+				(field
+					(name "Reference") "L")
+				(field
+					(name "Value") "Ferrite bead")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "LED1")
+			(description "LED SMD 1206/0603")
+			(fields
+				(field
+					(name "Reference") "LED")
+				(field
+					(name "Value") "LED BLUE")
+				(field
+					(name "Footprint") "0402W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "LED SMD 1206/0603")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "K")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "LED2")
+			(description "LED SMD 1206/0603")
+			(fields
+				(field
+					(name "Reference") "LED")
+				(field
+					(name "Value") "LED RED")
+				(field
+					(name "Footprint") "0402W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "LED SMD 1206/0603")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "K")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "LED3")
+			(description "LED SMD 1206/0603")
+			(fields
+				(field
+					(name "Reference") "LED")
+				(field
+					(name "Value") "LED ORANGE")
+				(field
+					(name "Footprint") "0402W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "LED SMD 1206/0603")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "K")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "O1")
+			(fields
+				(field
+					(name "Reference") "O")
+				(field
+					(name "Value") "32.768 kHz")
+				(field
+					(name "Footprint") "32.768 Crystal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "O2")
+			(description "For BLE use")
+			(fields
+				(field
+					(name "Reference") "O")
+				(field
+					(name "Value") "16 MHz Crystal Cl=8pF")
+				(field
+					(name "Footprint") "2.5 x 2.0 crystal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "For BLE use")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "XIN")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Gnd")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "XOUT")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Gnd")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "P3")
+			(description "0.5mm FPC connector")
+			(fields
+				(field
+					(name "Reference") "P")
+				(field
+					(name "Value") "FH33J-4S-0.5SH(99)")
+				(field
+					(name "Footprint") "FH33J-4S-0.5SH(99)")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "0.5mm FPC connector")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "P4")
+			(fields
+				(field
+					(name "Reference") "P")
+				(field
+					(name "Value") "CONN HEADER 20POS")
+				(field
+					(name "Footprint") "DF12 20 POS")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "8")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "9")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "10")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "11")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "12")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "13")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "14")
+					(type "passive")
+				)
+				(pin
+					(num "15")
+					(name "15")
+					(type "passive")
+				)
+				(pin
+					(num "16")
+					(name "16")
+					(type "passive")
+				)
+				(pin
+					(num "17")
+					(name "17")
+					(type "passive")
+				)
+				(pin
+					(num "18")
+					(name "18")
+					(type "passive")
+				)
+				(pin
+					(num "19")
+					(name "19")
+					(type "passive")
+				)
+				(pin
+					(num "20")
+					(name "20")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "P5")
+			(description "0.5mm FPC connector")
+			(fields
+				(field
+					(name "Reference") "P")
+				(field
+					(name "Value") "FH33J-4S-0.5SH(99)")
+				(field
+					(name "Footprint") "FH33J-4S-0.5SH(99)")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "0.5mm FPC connector")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "P6")
+			(description "0.5mm FPC connector")
+			(fields
+				(field
+					(name "Reference") "P")
+				(field
+					(name "Value") "FH33J-4S-0.5SH(99)")
+				(field
+					(name "Footprint") "FH33J-4S-0.5SH(99)")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "0.5mm FPC connector")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "R10")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "49.9K")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "R11")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "20K")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "R12")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "200K")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "R13")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "49.9K")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "R14")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "20K")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "R15")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "200K")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "R16")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "4.7K 5%")
+				(field
+					(name "Footprint") "0402 RESISTOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "R17")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "4.7K 5%")
+				(field
+					(name "Footprint") "0402 RESISTOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "R18")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "4.99K 1%")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "R2")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "10K")
+				(field
+					(name "Footprint") "0402 RESISTOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "R20")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "1K 5%")
+				(field
+					(name "Footprint") "0603W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "R3")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "0 Ohm")
+				(field
+					(name "Footprint") "0402 RESISTOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "R4")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "DNP")
+				(field
+					(name "Footprint") "0402 RESISTOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "R5")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "DNP")
+				(field
+					(name "Footprint") "0402 RESISTOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "R6")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "22K 1%")
+				(field
+					(name "Footprint") "0402 RESISTOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "R7")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "330")
+				(field
+					(name "Footprint") "0402 RESISTOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "R8")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "330")
+				(field
+					(name "Footprint") "0402 RESISTOR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "SW1")
+			(description "SPDT SMD Side Switch")
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "ON_OFF_SWITCH")
+				(field
+					(name "Footprint") "SWTICH_SMD_SIDE")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SPDT SMD Side Switch")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "U1")
+			(description "5V LDO SMD")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "3.3V REG 0.5A")
+				(field
+					(name "Footprint") "SOT-23-5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "5V LDO SMD")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "IN")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "EN")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "BYP")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "OUT")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "U10")
+			(description "4.4 µA/Amplifier, 90 kHz Op Amp")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "MCP6422")
+				(field
+					(name "Footprint") "MSOP-MS8_N")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "4.4 µA/Amplifier, 90 kHz Op Amp")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VOUTA")
+					(type "output")
+				)
+				(pin
+					(num "2")
+					(name "VINA-")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "VINA+")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "VSS")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "VINB+")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "VINB-")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "VOUTB")
+					(type "output")
+				)
+				(pin
+					(num "8")
+					(name "VDD")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "U2")
+			(description "5V LDO SMD")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "3.3 V REG 0.15A")
+				(field
+					(name "Footprint") "SOT-23-5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "5V LDO SMD")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "IN")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "EN")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "BYP")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "OUT")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "U4")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "MCP73831T")
+				(field
+					(name "Footprint") "SOT-23-5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "STAT")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Vbatt")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "VDD")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "PROG")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "U6")
+			(description "2.4 GHz Radio")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "nRF24L01+")
+				(field
+					(name "Footprint") "QFN20")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "2.4 GHz Radio")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "CE")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "CSN")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "SCK")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "MOSI")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "MISO")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "IRQ")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "VDD")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "VSS")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "XC2")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "XC1")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "VDD_PA")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "ANT1")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "ANT2")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "VSS")
+					(type "passive")
+				)
+				(pin
+					(num "15")
+					(name "VDD")
+					(type "passive")
+				)
+				(pin
+					(num "16")
+					(name "IREF")
+					(type "passive")
+				)
+				(pin
+					(num "17")
+					(name "VSS")
+					(type "passive")
+				)
+				(pin
+					(num "18")
+					(name "VDD")
+					(type "passive")
+				)
+				(pin
+					(num "19")
+					(name "DVDD")
+					(type "passive")
+				)
+				(pin
+					(num "20")
+					(name "VSS")
+					(type "passive")
+				)
+				(pin
+					(num "21")
+					(name "EP")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "U8")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "DRV8835")
+				(field
+					(name "Footprint") "WSON-16")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "0")
+					(name "PWR_PAD")
+					(type "passive")
+				)
+				(pin
+					(num "1")
+					(name "VM")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "AOUT1")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "AOUT2")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "BOUT1")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "BOUT2")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "BIN2/BENBL")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "BIN1/BPHASE")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "AINT2/AENBLE")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "AIN1/APHASE")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "MODE")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "VCC/NSLEEP")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "U9")
+			(description "Gyro / accelerometer combo")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "MPU 6050")
+				(field
+					(name "Footprint") "QFN24")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Gyro / accelerometer combo")
+			)
+			(pins
+				(pin
+					(num "8")
+					(name "VLOGIC")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "AD0")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "REGOUT")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "FSYNC")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "INT")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "VDD")
+					(type "passive")
+				)
+				(pin
+					(num "18")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "20")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "22")
+					(name "CS")
+					(type "passive")
+				)
+				(pin
+					(num "23")
+					(name "SCL")
+					(type "passive")
+				)
+				(pin
+					(num "24")
+					(name "SDA")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ALT")
+			(part "U_1")
+			(description "IC MCU 32BIT 256KB FLASH 48TQFP")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "ATSAMD21G")
+				(field
+					(name "Footprint") "TQFN48")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "IC MCU 32BIT 256KB FLASH 48TQFP")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "PA00")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "PA01")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "PA02")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "PA03")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "GNDANA")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "VDDANA")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "PB08")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "PB09")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "PA04")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "PA05")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "PA06")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "PA07")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "PA08")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "PA09")
+					(type "passive")
+				)
+				(pin
+					(num "15")
+					(name "PA10")
+					(type "passive")
+				)
+				(pin
+					(num "16")
+					(name "PA11")
+					(type "passive")
+				)
+				(pin
+					(num "17")
+					(name "VDDIO")
+					(type "passive")
+				)
+				(pin
+					(num "18")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "19")
+					(name "PB10")
+					(type "passive")
+				)
+				(pin
+					(num "20")
+					(name "PB11")
+					(type "passive")
+				)
+				(pin
+					(num "21")
+					(name "PA12")
+					(type "passive")
+				)
+				(pin
+					(num "22")
+					(name "PA13")
+					(type "passive")
+				)
+				(pin
+					(num "23")
+					(name "PA14")
+					(type "passive")
+				)
+				(pin
+					(num "24")
+					(name "PA15")
+					(type "passive")
+				)
+				(pin
+					(num "25")
+					(name "PA16")
+					(type "passive")
+				)
+				(pin
+					(num "26")
+					(name "PA17")
+					(type "passive")
+				)
+				(pin
+					(num "27")
+					(name "PA18")
+					(type "passive")
+				)
+				(pin
+					(num "28")
+					(name "PA19")
+					(type "passive")
+				)
+				(pin
+					(num "29")
+					(name "PA20")
+					(type "passive")
+				)
+				(pin
+					(num "30")
+					(name "PA21")
+					(type "passive")
+				)
+				(pin
+					(num "31")
+					(name "PA22")
+					(type "passive")
+				)
+				(pin
+					(num "32")
+					(name "USB_SOF/PA23")
+					(type "passive")
+				)
+				(pin
+					(num "33")
+					(name "USB_DM/PA24")
+					(type "passive")
+				)
+				(pin
+					(num "34")
+					(name "USB_DP/PA25")
+					(type "passive")
+				)
+				(pin
+					(num "35")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "36")
+					(name "VDDIO")
+					(type "passive")
+				)
+				(pin
+					(num "37")
+					(name "PB22")
+					(type "passive")
+				)
+				(pin
+					(num "38")
+					(name "PB23")
+					(type "passive")
+				)
+				(pin
+					(num "39")
+					(name "PA27")
+					(type "passive")
+				)
+				(pin
+					(num "40")
+					(name "R\\E\\S\\E\\T\\N\\")
+					(type "passive")
+				)
+				(pin
+					(num "41")
+					(name "PA28")
+					(type "passive")
+				)
+				(pin
+					(num "42")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "43")
+					(name "VDCCORE")
+					(type "passive")
+				)
+				(pin
+					(num "44")
+					(name "VDDIN")
+					(type "passive")
+				)
+				(pin
+					(num "45")
+					(name "SWCLK/PA30")
+					(type "passive")
+				)
+				(pin
+					(num "46")
+					(name "SWDIO/PA31")
+					(type "passive")
+				)
+				(pin
+					(num "47")
+					(name "PB02")
+					(type "passive")
+				)
+				(pin
+					(num "48")
+					(name "PB03")
+					(type "passive")
+				)
+				(pin
+					(num "49")
+					(name "PAD")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries)
+	(nets
+		(net
+			(code "1")
+			(name "/A5_AUX")
+			(class "Default")
+			(node
+				(ref "P6")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "47")
+				(pinfunction "PB02_47")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "/AINT1")
+			(class "Default")
+			(node
+				(ref "U*1")
+				(pin "8")
+				(pinfunction "PB09_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "10")
+				(pinfunction "AIN1/APHASE_10")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "/AINT2")
+			(class "Default")
+			(node
+				(ref "U*1")
+				(pin "12")
+				(pinfunction "PA07_12")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "9")
+				(pinfunction "AINT2/AENBLE_9")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "/AOUT1")
+			(class "Default")
+			(node
+				(ref "U8")
+				(pin "2")
+				(pinfunction "AOUT1_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "/AOUT2")
+			(class "Default")
+			(node
+				(ref "U8")
+				(pin "3")
+				(pinfunction "AOUT2_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "/BIN1")
+			(class "Default")
+			(node
+				(ref "U*1")
+				(pin "7")
+				(pinfunction "PB08_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "8")
+				(pinfunction "BIN1/BPHASE_8")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "/BIN2")
+			(class "Default")
+			(node
+				(ref "U*1")
+				(pin "13")
+				(pinfunction "PA08_13")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "7")
+				(pinfunction "BIN2/BENBL_7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "/BOUT1")
+			(class "Default")
+			(node
+				(ref "U8")
+				(pin "4")
+				(pinfunction "BOUT1_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "/BOUT2")
+			(class "Default")
+			(node
+				(ref "U8")
+				(pin "5")
+				(pinfunction "BOUT2_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "/CE")
+			(class "Default")
+			(node
+				(ref "U*1")
+				(pin "23")
+				(pinfunction "PA14_23")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "1")
+				(pinfunction "CE_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "/CSN")
+			(class "Default")
+			(node
+				(ref "U*1")
+				(pin "27")
+				(pinfunction "PA18_27")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "2")
+				(pinfunction "CSN_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "12")
+			(name "/ENC_OUT1")
+			(class "Default")
+			(node
+				(ref "P3")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "P4")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "2")
+				(pinfunction "VINA-_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "13")
+			(name "/ENC_OUT2")
+			(class "Default")
+			(node
+				(ref "P4")
+				(pin "5")
+				(pinfunction "5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "P5")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "6")
+				(pinfunction "VINB-_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "14")
+			(name "/INT_ENC1")
+			(class "Default")
+			(node
+				(ref "P4")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R12")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "14")
+				(pinfunction "PA09_14")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "1")
+				(pinfunction "VOUTA_1")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "15")
+			(name "/INT_ENC2")
+			(class "Default")
+			(node
+				(ref "P4")
+				(pin "7")
+				(pinfunction "7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "30")
+				(pinfunction "PA21_30")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "7")
+				(pinfunction "VOUTB_7")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "16")
+			(name "/INT_IMU")
+			(class "Default")
+			(node
+				(ref "U*1")
+				(pin "24")
+				(pinfunction "PA15_24")
+				(pintype "passive")
+			)
+			(node
+				(ref "U9")
+				(pin "12")
+				(pinfunction "INT_12")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "17")
+			(name "/IRQ")
+			(class "Default")
+			(node
+				(ref "U6")
+				(pin "6")
+				(pinfunction "IRQ_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "18")
+			(name "/IR_SEND1")
+			(class "Default")
+			(node
+				(ref "P3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "11")
+				(pinfunction "PA06_11")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
+			(name "/IR_SEND2")
+			(class "Default")
+			(node
+				(ref "P5")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "29")
+				(pinfunction "PA20_29")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "20")
+			(name "/LED1")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "9")
+				(pinfunction "PA04_9")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "21")
+			(name "/LED2")
+			(class "Default")
+			(node
+				(ref "LED2")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "10")
+				(pinfunction "PA05_10")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
+			(name "/MISO")
+			(class "Default")
+			(node
+				(ref "P4")
+				(pin "8")
+				(pinfunction "8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "28")
+				(pinfunction "PA19_28")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "5")
+				(pinfunction "MISO_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
+			(name "/MOSI")
+			(class "Default")
+			(node
+				(ref "P4")
+				(pin "6")
+				(pinfunction "6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "25")
+				(pinfunction "PA16_25")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "4")
+				(pinfunction "MOSI_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "/PB_03")
+			(class "Default")
+			(node
+				(ref "P6")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "48")
+				(pinfunction "PB03_48")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "25")
+			(name "/RESET")
+			(class "Default")
+			(node
+				(ref "P4")
+				(pin "19")
+				(pinfunction "19_19")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "40")
+				(pinfunction "R\\E\\S\\E\\T\\N\\_40")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "26")
+			(name "/RX")
+			(class "Default")
+			(node
+				(ref "P4")
+				(pin "14")
+				(pinfunction "14_14")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "16")
+				(pinfunction "PA11_16")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "27")
+			(name "/SCK")
+			(class "Default")
+			(node
+				(ref "P4")
+				(pin "10")
+				(pinfunction "10_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "26")
+				(pinfunction "PA17_26")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "3")
+				(pinfunction "SCK_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "28")
+			(name "/SCL")
+			(class "Default")
+			(node
+				(ref "P4")
+				(pin "11")
+				(pinfunction "11_11")
+				(pintype "passive")
+			)
+			(node
+				(ref "R16")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "32")
+				(pinfunction "USB_SOF/PA23_32")
+				(pintype "passive")
+			)
+			(node
+				(ref "U9")
+				(pin "23")
+				(pinfunction "SCL_23")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "29")
+			(name "/SDA")
+			(class "Default")
+			(node
+				(ref "P4")
+				(pin "13")
+				(pinfunction "13_13")
+				(pintype "passive")
+			)
+			(node
+				(ref "R17")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "31")
+				(pinfunction "PA22_31")
+				(pintype "passive")
+			)
+			(node
+				(ref "U9")
+				(pin "24")
+				(pinfunction "SDA_24")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "30")
+			(name "/SWCLK")
+			(class "Default")
+			(node
+				(ref "P4")
+				(pin "17")
+				(pinfunction "17_17")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "45")
+				(pinfunction "SWCLK/PA30_45")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "31")
+			(name "/SWDIO")
+			(class "Default")
+			(node
+				(ref "P4")
+				(pin "15")
+				(pinfunction "15_15")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "46")
+				(pinfunction "SWDIO/PA31_46")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "32")
+			(name "/TX")
+			(class "Default")
+			(node
+				(ref "P4")
+				(pin "12")
+				(pinfunction "12_12")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "15")
+				(pinfunction "PA10_15")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "33")
+			(name "/USBM")
+			(class "Default")
+			(node
+				(ref "P4")
+				(pin "16")
+				(pinfunction "16_16")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "33")
+				(pinfunction "USB_DM/PA24_33")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "34")
+			(name "/USBP")
+			(class "Default")
+			(node
+				(ref "P4")
+				(pin "18")
+				(pinfunction "18_18")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "34")
+				(pinfunction "USB_DP/PA25_34")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "35")
+			(name "/VBUS")
+			(class "Default")
+			(node
+				(ref "C2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "IN_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "EN_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "1")
+				(pinfunction "IN_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "EN_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "36")
+			(name "5V")
+			(class "Default")
+			(node
+				(ref "C22")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "LED3")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P4")
+				(pin "20")
+				(pinfunction "20_20")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "37")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "B1")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C10")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C11")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C12")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C14")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C15")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C16")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C17")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C18")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C19")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C20")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C22")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C23")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C9")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "O2")
+				(pin "2")
+				(pinfunction "Gnd_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "O2")
+				(pin "4")
+				(pinfunction "Gnd_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "P3")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "P4")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "P5")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "P6")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R14")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R18")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "18")
+				(pinfunction "GND_18")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "35")
+				(pinfunction "GND_35")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "42")
+				(pinfunction "GND_42")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "5")
+				(pinfunction "GNDANA_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "4")
+				(pinfunction "VSS_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "14")
+				(pinfunction "VSS_14")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "17")
+				(pinfunction "VSS_17")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "20")
+				(pinfunction "VSS_20")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "21")
+				(pinfunction "EP_21")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "8")
+				(pinfunction "VSS_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "0")
+				(pinfunction "PWR_PAD_0")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "6")
+				(pinfunction "GND_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "U9")
+				(pin "11")
+				(pinfunction "FSYNC_11")
+				(pintype "passive")
+			)
+			(node
+				(ref "U9")
+				(pin "18")
+				(pinfunction "GND_18")
+				(pintype "passive")
+			)
+			(node
+				(ref "U9")
+				(pin "9")
+				(pinfunction "AD0_9")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "38")
+			(name "Net-(A1-Pad1)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "39")
+			(name "Net-(B1-BAL1)")
+			(class "Default")
+			(node
+				(ref "B1")
+				(pin "4")
+				(pinfunction "BAL1_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "12")
+				(pinfunction "ANT1_12")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "40")
+			(name "Net-(B1-BAL2)")
+			(class "Default")
+			(node
+				(ref "B1")
+				(pin "3")
+				(pinfunction "BAL2_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "13")
+				(pinfunction "ANT2_13")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "41")
+			(name "Net-(B1-DC)")
+			(class "Default")
+			(node
+				(ref "B1")
+				(pin "5")
+				(pinfunction "DC_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "C16")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "11")
+				(pinfunction "VDD_PA_11")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "42")
+			(name "Net-(B1-UNBAL)")
+			(class "Default")
+			(node
+				(ref "B1")
+				(pin "1")
+				(pinfunction "UNBAL_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "43")
+			(name "Net-(C19-Pad1)")
+			(class "Default")
+			(node
+				(ref "C19")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U9")
+				(pin "20")
+				(pinfunction "GND_20")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "44")
+			(name "Net-(LED1-K)")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "2")
+				(pinfunction "K_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "45")
+			(name "Net-(LED2-K)")
+			(class "Default")
+			(node
+				(ref "LED2")
+				(pin "2")
+				(pinfunction "K_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "46")
+			(name "Net-(LED3-K)")
+			(class "Default")
+			(node
+				(ref "LED3")
+				(pin "2")
+				(pinfunction "K_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R20")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "47")
+			(name "Net-(O2-XIN)")
+			(class "Default")
+			(node
+				(ref "C14")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "O2")
+				(pin "1")
+				(pinfunction "XIN_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "9")
+				(pinfunction "XC2_9")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "48")
+			(name "Net-(O2-XOUT)")
+			(class "Default")
+			(node
+				(ref "C15")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "O2")
+				(pin "3")
+				(pinfunction "XOUT_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "10")
+				(pinfunction "XC1_10")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "49")
+			(name "Net-(U*1-PA00)")
+			(class "Default")
+			(node
+				(ref "C8")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "O1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "1")
+				(pinfunction "PA00_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "50")
+			(name "Net-(U*1-PA01)")
+			(class "Default")
+			(node
+				(ref "C9")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "O1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "2")
+				(pinfunction "PA01_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "51")
+			(name "Net-(U*1-VDCCORE)")
+			(class "Default")
+			(node
+				(ref "C5")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "43")
+				(pinfunction "VDCCORE_43")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "52")
+			(name "Net-(U*1-VDDANA)")
+			(class "Default")
+			(node
+				(ref "C12")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "L1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "6")
+				(pinfunction "VDDANA_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "53")
+			(name "Net-(U4-PROG)")
+			(class "Default")
+			(node
+				(ref "R18")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "5")
+				(pinfunction "PROG_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "54")
+			(name "Net-(U4-STAT)")
+			(class "Default")
+			(node
+				(ref "R20")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "1")
+				(pinfunction "STAT_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "55")
+			(name "Net-(U6-DVDD)")
+			(class "Default")
+			(node
+				(ref "C11")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "19")
+				(pinfunction "DVDD_19")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "56")
+			(name "Net-(U6-IREF)")
+			(class "Default")
+			(node
+				(ref "R6")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "16")
+				(pinfunction "IREF_16")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "57")
+			(name "Net-(U9-REGOUT)")
+			(class "Default")
+			(node
+				(ref "C18")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U9")
+				(pin "10")
+				(pinfunction "REGOUT_10")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "58")
+			(name "Net-(U10A-VINA+)")
+			(class "Default")
+			(node
+				(ref "R10")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R12")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "3")
+				(pinfunction "VINA+_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "59")
+			(name "Net-(U10B-VINB+)")
+			(class "Default")
+			(node
+				(ref "R13")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R14")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "5")
+				(pinfunction "VINB+_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "60")
+			(name "VBAT")
+			(class "Default")
+			(node
+				(ref "C23")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "3")
+				(pinfunction "Vbatt_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "61")
+			(name "VCC")
+			(class "Default")
+			(node
+				(ref "C10")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C17")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C20")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "L1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "P3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P4")
+				(pin "9")
+				(pinfunction "9_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "P5")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P6")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R16")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R17")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "17")
+				(pinfunction "VDDIO_17")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "36")
+				(pinfunction "VDDIO_36")
+				(pintype "passive")
+			)
+			(node
+				(ref "U*1")
+				(pin "44")
+				(pinfunction "VDDIN_44")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "8")
+				(pinfunction "VDD_8")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "5")
+				(pinfunction "OUT_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "15")
+				(pinfunction "VDD_15")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "18")
+				(pinfunction "VDD_18")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "7")
+				(pinfunction "VDD_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "11")
+				(pinfunction "MODE_11")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "12")
+				(pinfunction "VCC/NSLEEP_12")
+				(pintype "passive")
+			)
+			(node
+				(ref "U9")
+				(pin "13")
+				(pinfunction "VDD_13")
+				(pintype "passive")
+			)
+			(node
+				(ref "U9")
+				(pin "8")
+				(pinfunction "VLOGIC_8")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "62")
+			(name "VM")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "OUT_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "1")
+				(pinfunction "VM_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "63")
+			(name "unconnected-(B1-NC-Pad6)")
+			(class "Default")
+			(node
+				(ref "B1")
+				(pin "6")
+				(pinfunction "NC_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "64")
+			(name "unconnected-(SW1-Pad1)")
+			(class "Default")
+			(node
+				(ref "SW1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "65")
+			(name "unconnected-(U*1-PA02-Pad3)")
+			(class "Default")
+			(node
+				(ref "U*1")
+				(pin "3")
+				(pinfunction "PA02_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "66")
+			(name "unconnected-(U*1-PA03-Pad4)")
+			(class "Default")
+			(node
+				(ref "U*1")
+				(pin "4")
+				(pinfunction "PA03_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "67")
+			(name "unconnected-(U*1-PA12-Pad21)")
+			(class "Default")
+			(node
+				(ref "U*1")
+				(pin "21")
+				(pinfunction "PA12_21")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "68")
+			(name "unconnected-(U*1-PA13-Pad22)")
+			(class "Default")
+			(node
+				(ref "U*1")
+				(pin "22")
+				(pinfunction "PA13_22")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "69")
+			(name "unconnected-(U*1-PA27-Pad39)")
+			(class "Default")
+			(node
+				(ref "U*1")
+				(pin "39")
+				(pinfunction "PA27_39")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "70")
+			(name "unconnected-(U*1-PA28-Pad41)")
+			(class "Default")
+			(node
+				(ref "U*1")
+				(pin "41")
+				(pinfunction "PA28_41")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "71")
+			(name "unconnected-(U*1-PAD-Pad49)")
+			(class "Default")
+			(node
+				(ref "U*1")
+				(pin "49")
+				(pinfunction "PAD_49")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "72")
+			(name "unconnected-(U*1-PB10-Pad19)")
+			(class "Default")
+			(node
+				(ref "U*1")
+				(pin "19")
+				(pinfunction "PB10_19")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "73")
+			(name "unconnected-(U*1-PB11-Pad20)")
+			(class "Default")
+			(node
+				(ref "U*1")
+				(pin "20")
+				(pinfunction "PB11_20")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "74")
+			(name "unconnected-(U*1-PB22-Pad37)")
+			(class "Default")
+			(node
+				(ref "U*1")
+				(pin "37")
+				(pinfunction "PB22_37")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "75")
+			(name "unconnected-(U*1-PB23-Pad38)")
+			(class "Default")
+			(node
+				(ref "U*1")
+				(pin "38")
+				(pinfunction "PB23_38")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "76")
+			(name "unconnected-(U1-BYP-Pad4)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "BYP_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "77")
+			(name "unconnected-(U2-BYP-Pad4)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "4")
+				(pinfunction "BYP_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "78")
+			(name "unconnected-(U9-CS-Pad22)")
+			(class "Default")
+			(node
+				(ref "U9")
+				(pin "22")
+				(pinfunction "CS_22")
+				(pintype "passive")
+			)
+		)
+	)
+)

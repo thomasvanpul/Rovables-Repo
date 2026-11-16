@@ -1,0 +1,698 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-16T21:11:49",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.3",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/2ddb6113-2d18-463b-94f7-809add24e113",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR001 Pin 1 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 1.5494,
+                                "y": 0.2286
+                            },
+                            "uuid": "69275a71-c20c-4791-a006-a445b9621eb9"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR002 Pin 1 [VCC, Power input, Line]",
+                            "pos": {
+                                "x": 1.9304,
+                                "y": 0.1524
+                            },
+                            "uuid": "270ac2c9-2c81-46d9-94c9-4c68b7d94757"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ALT'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR007 [PWR_VCC_2_1]",
+                            "pos": {
+                                "x": 0.1524,
+                                "y": 0.7874
+                            },
+                            "uuid": "b94e2c26-16c5-4205-9714-91109f1f2118"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ALT'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR009 [PWR_GND_4_3]",
+                            "pos": {
+                                "x": 0.2286,
+                                "y": 0.889
+                            },
+                            "uuid": "41b846e0-6fe3-45c6-9397-f1bc4dacd198"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol P5 [P5]",
+                            "pos": {
+                                "x": 0.2794,
+                                "y": 0.8636
+                            },
+                            "uuid": "1230ef3f-f6a5-4c9d-8a1e-f7ab8cbe3c49"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ALT'",
+                    "items": [
+                        {
+                            "description": "Symbol P5 [P5]",
+                            "pos": {
+                                "x": 0.2794,
+                                "y": 0.8636
+                            },
+                            "uuid": "1230ef3f-f6a5-4c9d-8a1e-f7ab8cbe3c49"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ALT'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR011 [PWR_VCC_2_1]",
+                            "pos": {
+                                "x": 0.4318,
+                                "y": 0.8128
+                            },
+                            "uuid": "ba1a163b-8636-4014-a291-b80ea25bb304"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ALT'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR013 [PWR_VCC_2_1]",
+                            "pos": {
+                                "x": 0.4318,
+                                "y": 1.0414
+                            },
+                            "uuid": "375b7560-2e67-4e0c-9080-0eb047757d0b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ALT'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR014 [PWR_VCC_2_1]",
+                            "pos": {
+                                "x": 0.4318,
+                                "y": 1.2192
+                            },
+                            "uuid": "8486c3fc-2f23-4092-8e86-dbae79efcdc7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ALT'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR010 [PWR_GND_4_3]",
+                            "pos": {
+                                "x": 0.508,
+                                "y": 0.889
+                            },
+                            "uuid": "840edd21-d15d-4e9d-8743-b13d1e4c2a82"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ALT'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR012 [PWR_GND_4_3]",
+                            "pos": {
+                                "x": 0.508,
+                                "y": 1.1176
+                            },
+                            "uuid": "1c34e56f-ff06-4787-b110-7733c8d72afd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ALT'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR008 [PWR_GND_4_3]",
+                            "pos": {
+                                "x": 0.508,
+                                "y": 1.2954
+                            },
+                            "uuid": "2fe24da5-ffc0-4911-8665-1181cff2eec8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol P6 [P6]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.8636
+                            },
+                            "uuid": "da14f42d-b0ec-4a80-85ff-6c5ff9e950da"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ALT'",
+                    "items": [
+                        {
+                            "description": "Symbol P6 [P6]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.8636
+                            },
+                            "uuid": "da14f42d-b0ec-4a80-85ff-6c5ff9e950da"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol P7 [P7]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 1.0922
+                            },
+                            "uuid": "dea603c9-61cd-4911-8932-1f77c6b83bd8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ALT'",
+                    "items": [
+                        {
+                            "description": "Symbol P7 [P7]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 1.0922
+                            },
+                            "uuid": "dea603c9-61cd-4911-8932-1f77c6b83bd8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol P8 [P8]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 1.27
+                            },
+                            "uuid": "3c48375f-e1df-42cc-8ed9-d587842ccc17"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ALT'",
+                    "items": [
+                        {
+                            "description": "Symbol P8 [P8]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 1.27
+                            },
+                            "uuid": "3c48375f-e1df-42cc-8ed9-d587842ccc17"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol P2 [P2]",
+                            "pos": {
+                                "x": 0.7366,
+                                "y": 0.5334
+                            },
+                            "uuid": "3f73934c-d262-4415-af50-d76146e3d0b9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ALT'",
+                    "items": [
+                        {
+                            "description": "Symbol P2 [P2]",
+                            "pos": {
+                                "x": 0.7366,
+                                "y": 0.5334
+                            },
+                            "uuid": "3f73934c-d262-4415-af50-d76146e3d0b9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ALT'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR006 [PWR_VCC_2_1]",
+                            "pos": {
+                                "x": 0.9906,
+                                "y": 0.7112
+                            },
+                            "uuid": "680f4752-8293-4275-acaa-a5173e972d8c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol P4 [P4]",
+                            "pos": {
+                                "x": 1.143,
+                                "y": 0.8382
+                            },
+                            "uuid": "3a144e23-79e5-4eca-944a-4c6516c3afa8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ALT'",
+                    "items": [
+                        {
+                            "description": "Symbol P4 [P4]",
+                            "pos": {
+                                "x": 1.143,
+                                "y": 0.8382
+                            },
+                            "uuid": "3a144e23-79e5-4eca-944a-4c6516c3afa8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [U1]",
+                            "pos": {
+                                "x": 1.1938,
+                                "y": 0.9906
+                            },
+                            "uuid": "efafa7f5-1471-42bc-8618-ca8b5ffc9cfd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ALT'",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [U1]",
+                            "pos": {
+                                "x": 1.1938,
+                                "y": 0.9906
+                            },
+                            "uuid": "efafa7f5-1471-42bc-8618-ca8b5ffc9cfd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol P3 [P3]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 0.1524
+                            },
+                            "uuid": "912b1f35-26a6-461d-9363-d7df53e50d56"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ALT'",
+                    "items": [
+                        {
+                            "description": "Symbol P3 [P3]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 0.1524
+                            },
+                            "uuid": "912b1f35-26a6-461d-9363-d7df53e50d56"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ALT'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR001 [PWR_GND_4_3]",
+                            "pos": {
+                                "x": 1.5494,
+                                "y": 0.2286
+                            },
+                            "uuid": "5729ae14-ccba-4c67-87a6-5a8b7becae03"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol P1 [P1]",
+                            "pos": {
+                                "x": 1.7018,
+                                "y": 0.2032
+                            },
+                            "uuid": "dd6b8d3f-a8dd-494c-98e3-60485794abdf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ALT'",
+                    "items": [
+                        {
+                            "description": "Symbol P1 [P1]",
+                            "pos": {
+                                "x": 1.7018,
+                                "y": 0.2032
+                            },
+                            "uuid": "dd6b8d3f-a8dd-494c-98e3-60485794abdf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol L1 [L1]",
+                            "pos": {
+                                "x": 1.8034,
+                                "y": 0.5842
+                            },
+                            "uuid": "b105fcec-e5fc-460f-aa12-dfc3728e5243"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ALT'",
+                    "items": [
+                        {
+                            "description": "Symbol L1 [L1]",
+                            "pos": {
+                                "x": 1.8034,
+                                "y": 0.5842
+                            },
+                            "uuid": "b105fcec-e5fc-460f-aa12-dfc3728e5243"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol L2 [L2]",
+                            "pos": {
+                                "x": 1.8034,
+                                "y": 0.7366
+                            },
+                            "uuid": "6f9d4a65-aac4-4fdc-8da6-e30bb630d391"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ALT'",
+                    "items": [
+                        {
+                            "description": "Symbol L2 [L2]",
+                            "pos": {
+                                "x": 1.8034,
+                                "y": 0.7366
+                            },
+                            "uuid": "6f9d4a65-aac4-4fdc-8da6-e30bb630d391"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ALT'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR002 [PWR_VCC_2_1]",
+                            "pos": {
+                                "x": 1.9304,
+                                "y": 0.1524
+                            },
+                            "uuid": "8ec95ed7-d582-4112-96a6-188a6d4e6b5a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol R1 [R1]",
+                            "pos": {
+                                "x": 1.9304,
+                                "y": 0.5842
+                            },
+                            "uuid": "47ad69d9-9fb4-436f-a7f7-9c02aa87e75a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ALT'",
+                    "items": [
+                        {
+                            "description": "Symbol R1 [R1]",
+                            "pos": {
+                                "x": 1.9304,
+                                "y": 0.5842
+                            },
+                            "uuid": "47ad69d9-9fb4-436f-a7f7-9c02aa87e75a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol R2 [R2]",
+                            "pos": {
+                                "x": 1.9304,
+                                "y": 0.7366
+                            },
+                            "uuid": "ae43f37e-a812-4348-aee7-1043f8f56ff9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ALT'",
+                    "items": [
+                        {
+                            "description": "Symbol R2 [R2]",
+                            "pos": {
+                                "x": 1.9304,
+                                "y": 0.7366
+                            },
+                            "uuid": "ae43f37e-a812-4348-aee7-1043f8f56ff9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ALT'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR004 [PWR_GND_4_3]",
+                            "pos": {
+                                "x": 2.0066,
+                                "y": 0.635
+                            },
+                            "uuid": "4f8580db-fefa-4157-82e6-a977f120d486"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ALT'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR005 [PWR_GND_4_3]",
+                            "pos": {
+                                "x": 2.0066,
+                                "y": 0.7874
+                            },
+                            "uuid": "c105a48b-2887-4d5a-8195-387bb6db2bda"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol 100uF 25V [100uF_25V]",
+                            "pos": {
+                                "x": 2.0193,
+                                "y": 0.2286
+                            },
+                            "uuid": "34ee9425-7366-4e24-98c3-d19c2d4246f0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ALT'",
+                    "items": [
+                        {
+                            "description": "Symbol 100uF 25V [100uF_25V]",
+                            "pos": {
+                                "x": 2.0193,
+                                "y": 0.2286
+                            },
+                            "uuid": "34ee9425-7366-4e24-98c3-d19c2d4246f0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ALT'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR003 [PWR_GND_4_3]",
+                            "pos": {
+                                "x": 2.0574,
+                                "y": 0.2794
+                            },
+                            "uuid": "309d66bf-7860-48b6-b13d-6c3b9a33259f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        }
+    ],
+    "source": "master_board.kicad_sch"
+}

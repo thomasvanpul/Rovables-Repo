@@ -1,0 +1,35 @@
+{
+ "loads_in_kicad_cli": true,
+ "netlist_rc": 0,
+ "erc": {
+  "error:power_pin_not_driven": 2,
+  "warning:footprint_link_issues": 14,
+  "warning:lib_symbol_issues": 28
+ },
+ "erc_rc": 0,
+ "pdf_rc": 0,
+ "against_board": {
+  "components_in_schematic": 14,
+  "components_on_board": 15,
+  "only_in_schematic": [],
+  "only_on_board": [
+   ""
+  ],
+  "pins_compared": 100,
+  "pins_only_in_schematic": [],
+  "pins_only_on_board": [
+   "P5.NC",
+   "P6.NC",
+   "P7.NC",
+   "P8.NC",
+   "U1.34",
+   "U1.35",
+   "U1.36",
+   "U1.37"
+  ],
+  "nets_in_schematic": 34,
+  "nets_on_board": 34,
+  "nets_identical": 34,
+  "nets_that_differ": []
+ }
+}
