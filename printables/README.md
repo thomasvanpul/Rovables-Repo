@@ -11,8 +11,8 @@ parameters are at the top of the script). `parts.json` holds the measured number
 
 | File | Printer setup | Contents | Time | Filament |
 |---|---|---|---|---|
-| `plates/rovables_all_P1S_0.4mm.3mf` | P1S, 0.4 mm nozzle, 0.12mm Fine @BBL X1C, 3 walls, 20% gyroid, tree supports, PLA | everything below, 19 objects, one plate | 4 h 02 min | 59.89 g |
-| `plates/rovables_robot_P1S_0.2mm.3mf` | P1S, 0.2 mm nozzle, 0.10mm Standard @BBL X1C 0.2 nozzle, tree supports, PLA | robot parts only, 16 objects, one plate | 2 h 19 min | 8.09 g |
+| `plates/rovables_all_P1S_0.4mm.3mf` | P1S, 0.4 mm nozzle, 0.12mm Fine @BBL X1C, 3 Arachne walls, 20% gyroid, tree supports, PLA | everything below, 19 objects, one plate | 3 h 35 min | 57.55 g |
+| `plates/rovables_robot_P1S_0.2mm.3mf` | P1S, 0.2 mm nozzle, 0.10mm Standard @BBL X1C 0.2 nozzle, Arachne walls, tree supports, PLA | robot parts only, 16 objects, one plate | 2 h 22 min | 8.08 g |
 
 Time and grams are Bambu Studio's own estimates from the slice (both sliced with return code 0, no slicer warnings).
 Both plates hold parts for 2 robots.
@@ -21,6 +21,32 @@ Use the 0.2 mm plate for the robot if the printer has a 0.2 mm nozzle fitted. Th
 and a 0.33 mm rim, which is under two extrusion lines on a 0.4 mm nozzle, so the 0.4 mm plate may print them
 badly or not at all. The joystick enclosure is fine on 0.4 mm. Whether either plate gives usable robot parts is
 not known until one is printed.
+
+## How much of each part the slice prints
+
+A slicer leaves out what it cannot fit and still reports success, so `slice_check.py` reads the G-code in a
+plate and compares the plastic laid down as model (not supports or brim) with each part's volume. Run it with
+`python3 printables/slice_check.py printables/plates/*.3mf`.
+
+| Part | 0.4 mm plate, classic walls (first slice) | 0.4 mm plate, Arachne | 0.2 mm plate, classic (first slice) | 0.2 mm plate, Arachne |
+|---|---|---|---|---|
+| `base_plate_v1` | 0.96 | 0.96 | 0.97 | 0.97 |
+| `bottom_ski_v1` | 0.98 | 0.97 | 0.96 | 0.96 |
+| `case_minimum_covered` | 1.01 | 0.98 | 0.97 | 0.97 |
+| `BB_Mg_Adapter_V2` | 1.00 | 0.95 | 1.00 | 0.96 |
+| `Mt_Mg_Adapter_V2` | 1.01 | 0.98 | 0.97 | 0.96 |
+| `Magnet_Holder_V1C` | 1.47 | 0.97 | 0.97 | 0.95 |
+| `Chassis_encoder_inside_v2` | 0.98 | 0.97 | not on it | not on it |
+| `top_part_joystick_v1` | 0.83 | 0.80 | not on it | not on it |
+| `bottom_part_joystick_v1` | 0.88 | 0.85 | not on it | not on it |
+
+The plates were first sliced with the profiles' default "classic" walls. On the 0.4 mm nozzle that laid the
+4 mm magnet rod down at 147% of its drawn volume, so its magnet seats would have come out wrong. Both plates
+are now sliced with Arachne walls, which vary the line width; every robot part lands between 95% and 98%.
+The joystick halves are lower because they are thick enough to have 20% infill inside.
+
+This is a volume check. It shows no part is being skipped or fattened; it cannot show whether a 0.33 mm rim
+came out as a clean wall. Only a print does that.
 
 ## Parts
 

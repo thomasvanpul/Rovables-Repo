@@ -51,7 +51,11 @@ ROBOT_PARTS = ("base_plate_v1", "bottom_ski_v1", "case_minimum_covered", "BB_Mg_
                "Magnet_Holder_V1C")
 # These parts were drawn for a 25 micron resin printer and overhang everywhere, so supports are on.
 PROCESS_OVERRIDES = {"wall_loops": 3, "sparse_infill_density": "20%", "sparse_infill_pattern": "gyroid",
-                     "enable_support": 1, "support_type": "tree(auto)", "brim_type": "auto_brim"}
+                     "enable_support": 1, "support_type": "tree(auto)", "brim_type": "auto_brim",
+                     # Arachne varies the line width to fit thin walls. The classic generator these
+                     # profiles default to laid the 4 mm magnet rod at 147% of its volume on a 0.4 mm
+                     # nozzle with no warning (slice_check.py, printables/README.md).
+                     "wall_generator": "arachne"}
 
 # part -> (what it is, copies per robot set, copies regardless of sets, printed in PLA?)
 PARTS = {
