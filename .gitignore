@@ -1,2 +1,4 @@
 __pycache__/
 printables/plates/_work/
+v2/cad/out/plates/_work/
+.pytest_cache/
