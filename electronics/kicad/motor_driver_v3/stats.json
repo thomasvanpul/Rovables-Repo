@@ -1,17 +1,17 @@
 {
   "metadata": {
-    "date": "2026-11-16T18:51:33",
+    "date": "2026-11-16T19:41:08",
     "generator": "KiCad 10.0.3",
     "project": "motor_driver_v3",
     "board_name": "motor_driver_v3"
   },
   "board": {
-    "has_outline": false,
-    "width": null,
-    "height": null,
-    "area": null,
-    "front_component_density": null,
-    "back_component_density": null,
+    "has_outline": true,
+    "width": "23.1691 mm",
+    "height": "22.1839 mm",
+    "area": "352.314 mm²",
+    "front_component_density": "5.75",
+    "back_component_density": "5.75",
     "front_copper_area": "179.568 mm²",
     "back_copper_area": "175.495 mm²",
     "min_track_clearance": "0.1270 mm",
@@ -20,8 +20,8 @@
     "board_thickness": "0.5695 mm",
     "front_footprint_area": "20.243 mm²",
     "back_footprint_area": "20.243 mm²",
-    "front_footprint_density": null,
-    "back_footprint_density": null
+    "front_footprint_density": "5.75",
+    "back_footprint_density": "5.75"
   },
   "pads": {
     "through_hole": 10,

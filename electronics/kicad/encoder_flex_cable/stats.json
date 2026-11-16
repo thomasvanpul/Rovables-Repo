@@ -1,17 +1,17 @@
 {
   "metadata": {
-    "date": "2026-11-16T18:51:39",
+    "date": "2026-11-16T19:41:06",
     "generator": "KiCad 10.0.3",
     "project": "encoder_flex_cable",
     "board_name": "encoder_flex_cable"
   },
   "board": {
-    "has_outline": false,
-    "width": null,
-    "height": null,
-    "area": null,
-    "front_component_density": null,
-    "back_component_density": null,
+    "has_outline": true,
+    "width": "9.0718 mm",
+    "height": "8.6505 mm",
+    "area": "41.187 mm²",
+    "front_component_density": "0.00",
+    "back_component_density": "0.00",
     "front_copper_area": "16.323 mm²",
     "back_copper_area": "0.00 mm²",
     "min_track_clearance": "2147.4836 mm",
@@ -20,8 +20,8 @@
     "board_thickness": "0.1411 mm",
     "front_footprint_area": "0.00 mm²",
     "back_footprint_area": "0.00 mm²",
-    "front_footprint_density": null,
-    "back_footprint_density": null
+    "front_footprint_density": "0.00",
+    "back_footprint_density": "0.00"
   },
   "pads": {
     "through_hole": 0,
