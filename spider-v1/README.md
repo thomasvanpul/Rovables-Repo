@@ -1,4 +1,12 @@
-# Spider v1 (19 Nov 2026, 18:30)
+# Spider v1.1 (19 Nov 2026, 19:35)
+
+**v1.1 (Thomas printed v1 at 19:20):** the N20s did not go into the tray (channel 12.2 too tight), and the D hole
+was D for its whole depth while the real N20 shaft is round for the 4 mm by the gearbox and flat only on the
+outer 6 mm. v1.1: channel 12.5 wide, a 3 mm round entrance before the D, a recess for the gearbox boss, stop
+wall 1.2. Tray length unchanged, so the v1 hat still fits. Reprint only the tray and the rollers. The coupon
+now has 12.3 / 12.5 / 12.7 channels and the round-then-D hole, to settle both fits for good.
+
+## v1 (18:30)
 
 Everything on top, only magnets underneath. Supersedes `spider-v0` (Thomas 18:14: the follower block was too
 much; "bottom should just be the magnets").

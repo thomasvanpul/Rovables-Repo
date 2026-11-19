@@ -31,11 +31,14 @@ AXZ = R_ROLL + TYRE           # 6.45
 
 # N20 (ASSUMED body, PRINTED fits)
 N20_L, N20_W, N20_H = 24.0, 12.0, 10.0
-TUN_W, TUN_H = 12.2, 10.2
+TUN_W, TUN_H = 12.5, 10.2      # v1.1: 12.2 (the v3 rig press fit) was too tight in the open-top tray (Thomas 19 Nov 19:20)
 SHAFT_R, SHAFT_FLAT, SHAFT_L = 1.55, 1.05, 10.0
-TAIL = 3.0
-STOP_T = 0.8                  # wall the gearbox face sits against
-SLOT_R = 1.9                  # shaft slot in the stop wall, open at the top
+SHAFT_ROUND = 4.0             # MEASURED (Thomas 19:20): the flat runs only the outer 6 mm; the 4 mm by the gearbox is full round
+ROUND_L = 3.0                 # so the hub entrance is a full circle this deep, then the D
+TAIL = 3.0                    # kept at 3.0 so the printed v1 hat still fits the v1.1 tray
+STOP_T = 1.2                  # wall the gearbox face sits against
+SLOT_R = 2.0                  # shaft slot in the stop wall, open at the top
+BOSS_R, BOSS_D = 2.6, 0.6     # recess for the bearing boss on the gearbox face (ASSUMED ~4.5-5 mm across)
 
 # roller along u from the gearbox face
 GAP = 0.3
@@ -104,7 +107,7 @@ def span(sign, u0, u1):
 # ---------------- rollers and pills ----------------
 def roller_local():
     body = M.cylinder(ROLL_LEN, R_ROLL, R_ROLL, SEG)
-    d = M.cylinder(HUB_L, SHAFT_R, SHAFT_R, SEG) - M.cube([10, 10, HUB_L]).translate([-5, SHAFT_FLAT, 0])
+    d = M.cylinder(HUB_L, SHAFT_R, SHAFT_R, SEG) - M.cube([10, 10, HUB_L - ROUND_L]).translate([-5, SHAFT_FLAT, ROUND_L])
     bore = M.cylinder(BORE_L + 1, BORE_R, BORE_R, SEG).translate([0, 0, HUB_L + HUB_FLOOR])
     lead = M.cylinder(0.5, BORE_R, BORE_R + 0.35, SEG).translate([0, 0, ROLL_LEN - 0.5])
     # 0.4 chamfer on the hub end so it starts on the shaft square
@@ -155,6 +158,9 @@ def tray():
         sx0, sx1 = span(sign, -0.01, STOP_T + 0.01)
         t = t - cyl_x(SLOT_R, sx0, sx1, y, AXZ)
         t = t - box(sx0, sx1, y - SLOT_R, y + SLOT_R, AXZ, TRAY_TOP + 1)
+        bx0, bx1 = span(sign, -0.01, BOSS_D)
+        t = t - cyl_x(BOSS_R, bx0, bx1, y, AXZ)
+        t = t - box(bx0, bx1, y - BOSS_R, y + BOSS_R, AXZ, TRAY_TOP + 1)
     # hat locating: the hat's lip drops inside the tray walls; four snap dimples on the long walls
     for x in (-L_HALF / 2, L_HALF / 2):
         for y in (-W_HALF, W_HALF):
@@ -232,10 +238,12 @@ def coupon():
     for i, r in enumerate((5.05, 5.10, 5.15, 5.20)):
         ring = M.cylinder(4.5, r + WALL, r + WALL, SEG) - M.cylinder(5, r, r, SEG).translate([0, 0, -0.2])
         parts.append(ring.translate([i * 15.0, 0, 0]))
-    d = M.cylinder(6, 3.5, 3.5, SEG) - (M.cylinder(7, SHAFT_R, SHAFT_R, SEG) - M.cube([10, 10, 8]).translate([-5, SHAFT_FLAT, -1])).translate([0, 0, -0.5])
+    hole = M.cylinder(8.7, SHAFT_R, SHAFT_R, SEG) - M.cube([10, 10, 8.7 - ROUND_L]).translate([-5, SHAFT_FLAT, ROUND_L])
+    d = M.cylinder(8.7, 3.5, 3.5, SEG) - hole.translate([0, 0, 0])
     parts.append(d.translate([0, 15, 0]))
-    t = box(0, 14.2, 0, 6, 0, 12.5) - box(1.0, 1.0 + TUN_W, -1, 7, 0.8, 20)
-    parts.append(t.translate([10, 12, 0]))
+    for i, w in enumerate((12.3, 12.5, 12.7)):   # N20 channel widths: which one the motor pushes into
+        t = box(0, w + 2.0, 0, 5, 0, 7.0) - box(1.0, 1.0 + w, -1, 6, 0.8, 20)
+        parts.append(t.translate([8 + i * 16.5, 12, 0]))
     out = parts[0]
     for p in parts[1:]:
         out = out + p
