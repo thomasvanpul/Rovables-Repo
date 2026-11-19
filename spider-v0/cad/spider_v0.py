@@ -198,9 +198,17 @@ def chassis():
     for x in (-L_HALF + 5, L_HALF - 5):
         for y in (-W_HALF + 4, W_HALF - 4):
             body = body - M.cylinder(1.2, 0.8, 0.8, 32).translate([x, y, TOP_Z - 1.2])
-    # zip-tie strain relief pair beside the tether exit
-    for x in (-5.5, 5.5):
-        body = body - box(x - 0.9, x + 0.9, -W_HALF - 1, -W_HALF + 2.2, TOP_Z - 3.2, TOP_Z - 1.6)
+    # wire crossovers: a groove in the roof over each tail pocket joins it to the centre channel
+    # (first draft had no path from the motor terminals to the channel)
+    z0, z1 = AXZ + TUN_H / 2 - 0.2, AXZ + TUN_H / 2 + 1.6
+    for sign, y in ((1, YA), (-1, -YA)):
+        if sign > 0:
+            tx0, tx1 = XF - N20_L - TAIL, XF - N20_L
+        else:
+            tx0, tx1 = -XF + N20_L, -XF + N20_L + TAIL
+        yl, yh = (0.0, y) if y > 0 else (y, 0.0)
+        body = body - box(tx0 + 0.6, tx1 - 0.6, yl - 1.0, yh + 1.0, z0, z1)
+    # v0: the tether is hot-glued at the exit slot (an earlier zip-tie pocket pair was dead-ended)
     return body
 
 

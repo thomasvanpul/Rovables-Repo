@@ -23,7 +23,8 @@ leather offcut tonight: does it go together, does it clamp, does it drive.
   poles point opposite ways. Check by hand before you glue anything: the follower roller should jump up to the
   bot's roller through the leather.
 - Size: **54.5 x 32.3 x 15.4 mm** (Rovable v2 was 80 x 40 x 22). Flat top with 4 x M2 pilot holes for later.
-  Tether leaves through the slot in the -Y side; two zip-tie slots beside it take the strain.
+  The motor wires run from each tail pocket through a roof groove into a centre channel and out of the slot in
+  the -Y side (route checked in code). Hot-glue the tether at the slot for v0.
 - Ground clearance: rollers touch the leather; the strap is 0.75 mm above it, the chassis 1.75 mm.
 
 ## Print (P1S, PLA, 0.2 mm, no supports)
@@ -68,7 +69,8 @@ push fit and the bores change in one number (`BORE_R` in `cad/spider_v0.py`).
    `assembly_order` in `cad/checks.json` sweeps each unit down 40 mm and finds no collision.
 5. Lay the strap across the gearbox ends and drive the three M2 screws in. The strap is what holds the motors
    in against the magnet pull, so do not skip it.
-6. Run the wires up through the centre channel and out of the side slot, and zip-tie them through the two slots.
+6. Lead each motor's wires up through the groove above its tail, along the centre channel, and out of the side
+   slot. Hot-glue them at the slot.
 7. Follower: put two discs in each follower roller, **reversed**, and press in the caps. Set each roller in its
    well and drive an M3 screw through each end wall into the roller's end hole. It should spin freely.
 

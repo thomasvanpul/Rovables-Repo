@@ -29,7 +29,7 @@
    "chassis": {
     "watertight": true,
     "bodies": 1,
-    "vol_mm3": 8928.9,
+    "vol_mm3": 8835.4,
     "bbox": [
      54.5,
      32.3,
