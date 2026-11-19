@@ -1,0 +1,112 @@
+{
+ "layout": {
+  "L": 54.5,
+  "W": 32.3,
+  "H_top": 15.400000000000002,
+  "XF": 3.3500000000000014,
+  "axis_z": 6.8500000000000005,
+  "roller_len": 20.4,
+  "roller_od": 13.100000000000001,
+  "contact_x": 13.850000000000001,
+  "motor_floor_gap": 0.7500000000000009
+ },
+ "checks": {
+  "clashes": [],
+  "chassis_vs_motor_overlap_mm3": [
+   0.0,
+   0.0
+  ],
+  "magnet_inside_roller_overlap_mm3": -0.0,
+  "assembly_order": {
+   "unit_A_drop_in_from_below_clash_mm3": 0.0,
+   "unit_B_drop_in_from_below_clash_mm3": 0.0,
+   "strap_screws_from_below": true
+  },
+  "lowest_chassis_z": 1.75,
+  "lowest_strap_z": 0.75,
+  "roller_bottom_z_without_tyre": 0.3,
+  "printed_parts": {
+   "chassis": {
+    "watertight": true,
+    "bodies": 1,
+    "vol_mm3": 8928.9,
+    "bbox": [
+     54.5,
+     32.3,
+     13.65
+    ]
+   },
+   "strap": {
+    "watertight": true,
+    "bodies": 1,
+    "vol_mm3": 166.3,
+    "bbox": [
+     5.5,
+     32.3,
+     1.0
+    ]
+   },
+   "roller": {
+    "watertight": true,
+    "bodies": 1,
+    "vol_mm3": 1893.4,
+    "bbox": [
+     13.1,
+     13.1,
+     20.4
+    ]
+   },
+   "roller_cap": {
+    "watertight": true,
+    "bodies": 1,
+    "vol_mm3": 286.5,
+    "bbox": [
+     13.1,
+     13.1,
+     2.6
+    ]
+   },
+   "follower_frame": {
+    "watertight": true,
+    "bodies": 1,
+    "vol_mm3": 14312.9,
+    "bbox": [
+     60.1,
+     32.3,
+     13.5
+    ]
+   },
+   "follower_roller": {
+    "watertight": true,
+    "bodies": 1,
+    "vol_mm3": 1021.9,
+    "bbox": [
+     13.1,
+     13.1,
+     15.4
+    ]
+   },
+   "follower_cap": {
+    "watertight": true,
+    "bodies": 1,
+    "vol_mm3": 482.3,
+    "bbox": [
+     13.1,
+     13.1,
+     4.2
+    ]
+   },
+   "fit_coupon": {
+    "watertight": true,
+    "bodies": 6,
+    "vol_mm3": 1519.0,
+    "bbox": [
+     61.05,
+     26.6,
+     13.0
+    ]
+   }
+  },
+  "follower_clashes": []
+ }
+}
