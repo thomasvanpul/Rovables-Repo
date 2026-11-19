@@ -1,0 +1,106 @@
+{
+ "size": {
+  "L_with_hat": 51.6,
+  "W_with_hat": 31.6,
+  "L": 49.9,
+  "W": 29.9,
+  "tray_H": 12.85,
+  "H_with_hat_above_leather": 18.4,
+  "axis_z": 6.45,
+  "pill": [
+   12.3,
+   10.6
+  ],
+  "roller": [
+   12.3,
+   19.7
+  ]
+ },
+ "clashes": [],
+ "assembly_order": {
+  "unit_A_drops_in_from_above_mm3": 0.0,
+  "unit_B_drops_in_from_above_mm3": -0.0,
+  "bay_parts_slide_out_of_open_bottom_mm3": 0.0,
+  "hat_drops_on_from_above_mm3": 0.0
+ },
+ "floor_under_motor_mm3": {
+  "A": 115.2,
+  "B": 115.2
+ },
+ "lowest": {
+  "tray_underside_z": 0.55,
+  "roller_bottom_z": 0.3
+ },
+ "parts": {
+  "tray": {
+   "watertight": true,
+   "bodies": 1,
+   "bbox": [
+    49.9,
+    29.9,
+    12.85
+   ],
+   "vol": 4272.5
+  },
+  "hat": {
+   "watertight": true,
+   "bodies": 1,
+   "bbox": [
+    51.6,
+    31.6,
+    7.0
+   ],
+   "vol": 2041.2
+  },
+  "roller": {
+   "watertight": true,
+   "bodies": 1,
+   "bbox": [
+    12.3,
+    12.3,
+    19.1
+   ],
+   "vol": 1437.5
+  },
+  "roller_lid": {
+   "watertight": true,
+   "bodies": 1,
+   "bbox": [
+    12.3,
+    12.3,
+    1.6
+   ],
+   "vol": 152.9
+  },
+  "pill": {
+   "watertight": true,
+   "bodies": 1,
+   "bbox": [
+    12.3,
+    12.3,
+    10.0
+   ],
+   "vol": 414.6
+  },
+  "pill_lid": {
+   "watertight": true,
+   "bodies": 1,
+   "bbox": [
+    12.3,
+    12.3,
+    1.6
+   ],
+   "vol": 146.8
+  },
+  "fit_coupon": {
+   "watertight": true,
+   "bodies": 6,
+   "bbox": [
+    57.25,
+    24.7,
+    12.5
+   ],
+   "vol": 1034.5
+  }
+ }
+}
