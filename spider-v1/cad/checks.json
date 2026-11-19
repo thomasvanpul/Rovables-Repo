@@ -1,4 +1,8 @@
 {
+ "wire_routes_through_solid_mm3": {
+  "A": 0.0,
+  "B": 0.0
+ },
  "size": {
   "L_with_hat": 51.6,
   "W_with_hat": 31.6,
@@ -40,7 +44,7 @@
     29.9,
     12.85
    ],
-   "vol": 4166.2
+   "vol": 4149.4
   },
   "hat": {
    "watertight": true,

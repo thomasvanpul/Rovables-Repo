@@ -37,6 +37,7 @@ SHAFT_ROUND = 4.0             # MEASURED (Thomas 19:20): the flat runs only the 
 ROUND_L = 3.0                 # so the hub entrance is a full circle this deep, then the D
 TAIL = 3.0                    # kept at 3.0 so the printed v1 hat still fits the v1.1 tray
 STOP_T = 1.2                  # wall the gearbox face sits against
+WIRE_W = 3.0                  # v1.1 wire groove across the spine and out of the -Y wall
 SLOT_R = 2.0                  # shaft slot in the stop wall, open at the top
 BOSS_R, BOSS_D = 2.6, 0.6     # recess for the bearing boss on the gearbox face (ASSUMED ~4.5-5 mm across)
 
@@ -161,6 +162,10 @@ def tray():
         bx0, bx1 = span(sign, -0.01, BOSS_D)
         t = t - cyl_x(BOSS_R, bx0, bx1, y, AXZ)
         t = t - box(bx0, bx1, y - BOSS_R, y + BOSS_R, AXZ, TRAY_TOP + 1)
+    # v1.1 wiring (Thomas 19:25: v1 had no route for the N20 wires): each motor's wires rise out of its tail
+    # pocket, run forward in the ~1.9 mm between the can top and the tray top, and cross to the -Y wall
+    # through a groove over the centre spine; they leave under the hat's tether notch.
+    t = t - box(-WIRE_W / 2, WIRE_W / 2, -W_HALF - 1, YA - TUN_W / 2 + 0.5, AXZ + N20_H / 2 + 0.2, TRAY_TOP + 1)
     # hat locating: the hat's lip drops inside the tray walls; four snap dimples on the long walls
     for x in (-L_HALF / 2, L_HALF / 2):
         for y in (-W_HALF, W_HALF):
@@ -314,13 +319,27 @@ def main(out):
         floor_under[k] = round((probe ^ tr).volume(), 1)
     lowest = {"tray_underside_z": round(tr.bounding_box()[2], 2), "roller_bottom_z": round(assy["rollerA"].bounding_box()[2], 2)}
 
+    # wire routes, 0.9 mm bundle: tail pocket -> up -> along the can top -> across the spine -> out of -Y
+    def seg(p, q, t=0.9):
+        lo = [min(p[i], q[i]) - t / 2 for i in range(3)]
+        hi = [max(p[i], q[i]) + t / 2 for i in range(3)]
+        return box(lo[0], hi[0], lo[1], hi[1], lo[2], hi[2])
+    zw = AXZ + N20_H / 2 + 0.75
+    solid = tr + buy["n20A"] + buy["n20B"] + buy["oled"] + buy["speaker"] + buy["vibration"] + ht
+    routes = {}
+    for sign, y in UNITS:
+        k = "A" if sign > 0 else "B"
+        xt = ux(sign, -(N20_L + TAIL / 2))
+        pts = [(xt, y, AXZ), (xt, y, zw), (0.0, y, zw), (0.0, -W_HALF - 1.5, zw)]
+        routes[k] = round(sum((seg(pts[i], pts[i + 1]) ^ solid).volume() for i in range(len(pts) - 1)), 3)
+    rep_routes = routes
     printed = {"tray": tr, "hat": ht, "roller": rl, "roller_lid": ld, "pill": pl, "pill_lid": pld, "fit_coupon": cp}
     parts = {n: {"watertight": bool(tm(p).is_watertight), "bodies": len(tm(p).split(only_watertight=False)),
                  "bbox": [round(v, 2) for v in tm(p).extents], "vol": round(p.volume(), 1)} for n, p in printed.items()}
     size = {"L_with_hat": round(2 * (L_HALF + SKIRT_CLR + SKIRT_T), 2), "W_with_hat": round(2 * (W_HALF + SKIRT_CLR + SKIRT_T), 2), "L": round(2 * L_HALF, 2), "W": round(2 * W_HALF, 2), "tray_H": round(TRAY_TOP - Z_BOT + 0.0, 2),
             "H_with_hat_above_leather": round(TRAY_TOP + BAY_H + HAT_TOP, 2), "axis_z": AXZ,
             "pill": [round(2 * R_ROLL, 2), round(PILL_LEN, 2)], "roller": [round(2 * R_ROLL, 2), round(ROLL_LEN + LID_T, 2)]}
-    rep = {"size": size, "clashes": clashes, "assembly_order": order, "floor_under_motor_mm3": floor_under, "lowest": lowest, "parts": parts}
+    rep = {"wire_routes_through_solid_mm3": rep_routes, "size": size, "clashes": clashes, "assembly_order": order, "floor_under_motor_mm3": floor_under, "lowest": lowest, "parts": parts}
 
     # export in print orientation
     def ex(m, n):

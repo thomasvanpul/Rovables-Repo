@@ -3,7 +3,12 @@
 **v1.1 (Thomas printed v1 at 19:20):** the N20s did not go into the tray (channel 12.2 too tight), and the D hole
 was D for its whole depth while the real N20 shaft is round for the 4 mm by the gearbox and flat only on the
 outer 6 mm. v1.1: channel 12.5 wide, a 3 mm round entrance before the D, a recess for the gearbox boss, stop
-wall 1.2. Tray length unchanged, so the v1 hat still fits. Reprint only the tray and the rollers. The coupon
+wall 1.2. Tray length unchanged, so the v1 hat still fits.
+**Wiring (Thomas 19:25):** each N20's wires rise out of its 3 mm tail pocket, run forward in the ~1.9 mm
+between the can and the tray top, cross the centre rib through a 3 mm groove and leave through the -Y wall
+under the hat's tether notch. Both routes are checked clear of the tray, motors, hat and bay parts
+(`wire_routes_through_solid_mm3` in checks.json). Use thin wire (30 AWG, under 0.9 mm per bundle) and bend
+the motor tabs up flat before soldering. Reprint only the tray and the rollers. The coupon
 now has 12.3 / 12.5 / 12.7 channels and the round-then-D hole, to settle both fits for good.
 
 ## v1 (18:30)
